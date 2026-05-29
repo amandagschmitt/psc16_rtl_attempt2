@@ -1,0 +1,14 @@
+Resource Usage Report
+Part: lcmxo2_1200ze-1
+
+Register bits: 0 of 1280 (0%)
+PIC Latch:       0
+I/O cells:       7
+
+Details:
+GSR:            1
+OB:             6
+OBZ:            1
+PUR:            1
+VHI:            1
+VLO:            1

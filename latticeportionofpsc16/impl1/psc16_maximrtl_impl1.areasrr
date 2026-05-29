@@ -1,0 +1,78 @@
+----------------------------------------------------------------------
+Report for cell pca9561_clone_delay1.verilog
+
+Register bits: 419 of 1280 (33%)
+PIC Latch:       0
+I/O cells:       19
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                 BB        1       100.0
+                              CCU2D       16       100.0
+                                EFB        1       100.0
+                            FD1P3AX       18       100.0
+                            FD1P3IX      223       100.0
+                            FD1P3JX        1       100.0
+                            FD1S3AX      102       100.0
+                            FD1S3AY        9       100.0
+                            FD1S3IX       52       100.0
+                            FD1S3JX        3       100.0
+                                GSR        1       100.0
+                                 IB       12       100.0
+                           IFS1P3BX        6       100.0
+                           IFS1P3DX        5       100.0
+                                INV        3       100.0
+                                 OB        6       100.0
+                           ORCALUT4      623       100.0
+                               OSCH        1       100.0
+                              PFUMX       13       100.0
+                                PUR        1       100.0
+                                VHI        4       100.0
+                                VLO        4       100.0
+SUB MODULES 
+                 pca9561_nv_storage        1       100.0
+                    pca9561_ufm_efb        1       100.0
+                    pca9561_wb_byte        1       100.0
+                            
+                         TOTAL          1108           
+----------------------------------------------------------------------
+Report for cell pca9561_nv_storage.netlist
+     Instance path:  nv_storage_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        8        50.0
+                                EFB        1       100.0
+                            FD1P3AX       18       100.0
+                            FD1P3IX      146        65.5
+                            FD1S3AX       39        38.2
+                            FD1S3AY        1        11.1
+                            FD1S3IX       26        50.0
+                           ORCALUT4      310        49.8
+                                VHI        3        75.0
+                                VLO        3        75.0
+SUB MODULES 
+                    pca9561_ufm_efb        1       100.0
+                    pca9561_wb_byte        1       100.0
+                            
+                         TOTAL           557           
+----------------------------------------------------------------------
+Report for cell pca9561_ufm_efb.netlist
+     Instance path:  nv_storage_inst.ufm_efb_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                EFB        1       100.0
+                                VHI        1        25.0
+                                VLO        1        25.0
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell pca9561_wb_byte.netlist
+     Instance path:  nv_storage_inst.wb_byte_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3IX       21         9.4
+                            FD1S3IX        1         1.9
+                           ORCALUT4        4         0.6
+                                VHI        1        25.0
+                                VLO        1        25.0
+                            
+                         TOTAL            28           

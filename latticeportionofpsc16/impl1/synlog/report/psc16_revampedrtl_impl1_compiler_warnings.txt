@@ -1,0 +1,19 @@
+@W: CG532 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.v":65:4:65:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CG532 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":423:4:423:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CG296 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":444:13:444:23|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":447:27:447:38|Referenced variable previous_sda is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":294:46:294:61|Referenced variable control_register is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":288:45:288:61|Referenced variable i2c_slave_address is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":192:48:192:61|Referenced variable mux_input_data is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":137:46:137:63|Referenced variable eeprom_data_packed is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":291:36:291:52|Referenced variable eeprom_write_busy is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":245:17:245:18|Referenced variable wp is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":445:22:445:33|Referenced variable previous_scl is not in sensitivity list.
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: after_ack_action
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: commit_eeprom_write
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: output_command
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: output_command_active
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: pending_write_count
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: pending_write_data_packed
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: pending_write_start_address
+

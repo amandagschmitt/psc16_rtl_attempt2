@@ -1,0 +1,30 @@
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register status1[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register status2[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register status3[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register page10[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register page11[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register page12[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register page13[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register page14[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register page15[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused bits 6 to 0 of status0[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused bits 7 to 6 of page5[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused bits 7 to 6 of page6[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused bits 7 to 6 of page7[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused bits 7 to 6 of page8[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Pruning unused register mux_select_sync[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Pruning unused bits 7 to 4 of output_cmd[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Pruning unused bits 7 to 4 of pending_output_cmd[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL265 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Removing unused bit 7 of rx_shift[7:0]. Either assign all bits or reduce the width of the signal.
+@W: CL279 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Pruning register bits 7 to 6 of tx_byte[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Pruning register bit 1 of read_mode[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Pruning register bit 15 of busy_count[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL138 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Removing register 'error' because it is only assigned 0 or its original value.
+@W: CL279 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning register bits 1 to 0 of cmd_len[4:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning register bits 3 to 1 of read_len[4:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning register bit 3 of cmd_id[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning register bit 7 of wb_addr_req[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning register bits 3 to 2 of wb_addr_req[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning register bits 7 to 5 of return_state[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning register bits 6 to 5 of wb_addr_req[6:4]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

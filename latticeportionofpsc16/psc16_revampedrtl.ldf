@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="psc16_revampedrtl" device="LCMXO2-1200ZE-1UWG25ITR" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options VerilogStandard="Verilog 2001" top="psc16_top"/>
+        <Source name="../rtl/psc16_eeprom_nv.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../rtl/psc16_top.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="psc16_revampedrtl.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="../psc16redo_simulation/psc16redo_simulation.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="psc16_revampedrtl1.sty"/>
+</BaliProject>

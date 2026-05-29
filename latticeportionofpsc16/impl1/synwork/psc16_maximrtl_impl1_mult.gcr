@@ -1,0 +1,9 @@
+i clk_7m00_i
+m 0 0
+u 183 424
+n ckid0_0 {t:nv_storage_inst.wb_byte_inst.wb_adr_o[6:4].C} Clock source is invalid for GCC
+p {t:osc_inst.OSC}{t:clk_7m00_inferred_clock.I[0]}{t:clk_7m00_inferred_clock.OUT[0]}{t:state[7].C}
+e ckid0_1 {t:state[7].C} dffr
+d ckid0_2 {t:osc_inst.OSC} OSCH Clock source is invalid for GCC
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

@@ -1,0 +1,585 @@
+# Fri May 29 15:05:12 2026
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\Windows\latticediamond\synpbase
+OS: Windows 10 or later
+Hostname: AGSCHMITT_WORK
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 200MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 200MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 201MB peak: 201MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 203MB peak: 205MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+
+@N: BZ173 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":426:12:426:15|ROM load_valid_2 (in view: work.pca9561_nv_storage(verilog)) mapped in logic.
+@N: MO106 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":426:12:426:15|Found ROM load_valid_2 (in view: work.pca9561_nv_storage(verilog)) with 27 words by 1 bit.
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net sda has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net clk_7m00 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_14 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_32 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_40 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_66 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_92 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_118 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_124 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_130 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_148 has multiple drivers .
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+
+@N: FX493 |Applying initial value "1" on instance mux_in_meta[0].
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "1" on instance mux_in_meta[1].
+@N: FX493 |Applying initial value "1" on instance mux_in_meta[2].
+@N: FX493 |Applying initial value "1" on instance mux_in_meta[3].
+@N: FX493 |Applying initial value "1" on instance mux_in_meta[4].
+@N: FX493 |Applying initial value "1" on instance mux_in_meta[5].
+@N: FX493 |Applying initial value "1" on instance mux_in_sync[0].
+@N: FX493 |Applying initial value "1" on instance mux_in_sync[1].
+@N: FX493 |Applying initial value "1" on instance mux_in_sync[2].
+@N: FX493 |Applying initial value "1" on instance mux_in_sync[3].
+@N: FX493 |Applying initial value "1" on instance mux_in_sync[4].
+@N: FX493 |Applying initial value "1" on instance mux_in_sync[5].
+@N: FX493 |Applying initial value "0" on instance por_shift[0].
+@N: FX493 |Applying initial value "0" on instance por_shift[1].
+@N: FX493 |Applying initial value "0" on instance por_shift[2].
+@N: FX493 |Applying initial value "0" on instance por_shift[3].
+@N: FX493 |Applying initial value "0" on instance por_shift[4].
+@N: FX493 |Applying initial value "0" on instance por_shift[5].
+@N: FX493 |Applying initial value "0" on instance por_shift[6].
+@N: FX493 |Applying initial value "0" on instance por_shift[7].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q_d[0].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q_d[1].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q_d[2].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q_d[3].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q_d[4].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q_d[5].
+@N: FX493 |Applying initial value "0" on instance eeprom0[0].
+@N: FX493 |Applying initial value "0" on instance eeprom0[1].
+@N: FX493 |Applying initial value "0" on instance eeprom0[2].
+@N: FX493 |Applying initial value "0" on instance eeprom0[3].
+@N: FX493 |Applying initial value "0" on instance eeprom0[4].
+@N: FX493 |Applying initial value "0" on instance eeprom0[5].
+@N: FX493 |Applying initial value "0" on instance eeprom1[0].
+@N: FX493 |Applying initial value "0" on instance eeprom1[1].
+@N: FX493 |Applying initial value "0" on instance eeprom1[2].
+@N: FX493 |Applying initial value "0" on instance eeprom1[3].
+@N: FX493 |Applying initial value "0" on instance eeprom1[4].
+@N: FX493 |Applying initial value "0" on instance eeprom1[5].
+@N: FX493 |Applying initial value "0" on instance eeprom2[0].
+@N: FX493 |Applying initial value "0" on instance eeprom2[1].
+@N: FX493 |Applying initial value "0" on instance eeprom2[2].
+@N: FX493 |Applying initial value "0" on instance eeprom2[3].
+@N: FX493 |Applying initial value "0" on instance eeprom2[4].
+@N: FX493 |Applying initial value "0" on instance eeprom2[5].
+@N: FX493 |Applying initial value "0" on instance eeprom3[0].
+@N: FX493 |Applying initial value "0" on instance eeprom3[1].
+@N: FX493 |Applying initial value "0" on instance eeprom3[2].
+@N: FX493 |Applying initial value "0" on instance eeprom3[3].
+@N: FX493 |Applying initial value "0" on instance eeprom3[4].
+@N: FX493 |Applying initial value "0" on instance eeprom3[5].
+@N: FX493 |Applying initial value "0" on instance pending_output_cmd_valid.
+@N: FX493 |Applying initial value "0" on instance sda_drive_low.
+@N: FX493 |Applying initial value "1" on instance pending_output_cmd[0].
+@N: FX493 |Applying initial value "0" on instance pending_output_cmd[1].
+@N: FX493 |Applying initial value "0" on instance pending_output_cmd[2].
+@N: FX493 |Applying initial value "0" on instance pending_output_cmd[3].
+@N: FX493 |Applying initial value "1" on instance output_cmd[0].
+@N: FX493 |Applying initial value "0" on instance output_cmd[1].
+@N: FX493 |Applying initial value "0" on instance output_cmd[2].
+@N: FX493 |Applying initial value "0" on instance output_cmd[3].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q[0].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q[1].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q[2].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q[3].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q[4].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q[5].
+@N: FX493 |Applying initial value "1" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: FX493 |Applying initial value "0" on instance state[2].
+@N: FX493 |Applying initial value "0" on instance state[3].
+@N: FX493 |Applying initial value "0" on instance state[4].
+@N: FX493 |Applying initial value "0" on instance state[5].
+@N: FX493 |Applying initial value "0" on instance state[6].
+@N: FX493 |Applying initial value "0" on instance state[7].
+@N: BN362 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":254:4:254:9|Removing sequential instance state[7] (in view: work.pca9561_clone_delay1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":254:4:254:9|Removing sequential instance state[6] (in view: work.pca9561_clone_delay1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":254:4:254:9|Removing sequential instance state[5] (in view: work.pca9561_clone_delay1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":254:4:254:9|Removing sequential instance state[0] (in view: work.pca9561_clone_delay1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_499 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_505 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_507 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_509 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_510 has multiple drivers .
+@N: MF179 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":400:45:400:77|Found 7 by 7 bit equality operator ('==') un1_a0_sync (in view: work.pca9561_clone_delay1(verilog))
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_646 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_647 has multiple drivers .
+@W: BN132 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":670:4:670:9|Removing instance nv_storage_inst.wb_byte_inst.wb_adr_o[6] because it is equivalent to instance nv_storage_inst.wb_byte_inst.wb_adr_o[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":670:4:670:9|Removing instance nv_storage_inst.wb_byte_inst.wb_adr_o[5] because it is equivalent to instance nv_storage_inst.wb_byte_inst.wb_adr_o[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: FX493 |Applying initial value "1" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: FX493 |Applying initial value "0" on instance state[2].
+@N: FX493 |Applying initial value "0" on instance state[3].
+@N: FX493 |Applying initial value "0" on instance state[4].
+@N: FX493 |Applying initial value "0" on instance state[5].
+@N: FX493 |Applying initial value "0" on instance state[6].
+@N: FX493 |Applying initial value "0" on instance state[7].
+@N: FX493 |Applying initial value "0" on instance state[8].
+@N: FX493 |Applying initial value "0" on instance state[9].
+@N: FX493 |Applying initial value "0" on instance state[10].
+@N: FX493 |Applying initial value "0" on instance state[11].
+@N: FX493 |Applying initial value "0" on instance state[12].
+@N: FX493 |Applying initial value "0" on instance state[13].
+@N: FX493 |Applying initial value "0" on instance state[14].
+@N: FX493 |Applying initial value "0" on instance state[15].
+@N: FX493 |Applying initial value "0" on instance state[16].
+@N: FX493 |Applying initial value "0" on instance state[17].
+@N: FX493 |Applying initial value "0" on instance state[18].
+@N: FX493 |Applying initial value "0" on instance state[19].
+@N: FX493 |Applying initial value "0" on instance state[20].
+@N: FX493 |Applying initial value "0" on instance state[21].
+@N: FX493 |Applying initial value "0" on instance state[22].
+@N: FX493 |Applying initial value "0" on instance state[23].
+@N: FX493 |Applying initial value "0" on instance state[24].
+@N: FX493 |Applying initial value "0" on instance state[25].
+
+Only the first 100 messages of id 'FX493' are reported. To see all messages use 'report_messages -log C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\synlog\psc16_maximrtl_impl1_fpga_mapper.srr -id FX493' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {FX493} -count unlimited' in the Tcl shell.
+@N: MF179 :|Found 5 by 5 bit equality operator ('==') state92 (in view: work.pca9561_nv_storage(verilog))
+@N: MF179 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":463:25:463:95|Found 8 by 8 bit equality operator ('==') un1_nv_checksum (in view: work.pca9561_nv_storage(verilog))
+
+Starting factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 266MB peak: 266MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 272MB peak: 272MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_78 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_333 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_334 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_335 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_336 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_337 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_338 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_339 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_340 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_341 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_342 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_343 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_344 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_345 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_346 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_347 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_348 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_349 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_350 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_351 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_352 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.N_353 has multiple drivers .
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 274MB peak: 274MB)
+
+@N: FA113 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":620:42:620:59|Pipelining module un1_read_index[4:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":383:4:383:9|Pushed in register read_index[4:0].
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net un1_busy_count has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_1271 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_0 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_1 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_2 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_3 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_4 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_5 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_6 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_7 has multiple drivers .
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 275MB peak: 276MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 275MB peak: 276MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 275MB peak: 276MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 274MB peak: 276MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 286MB peak: 318MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:07s		   130.91ns		 624 /       411
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 286MB peak: 318MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2667 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2669 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2671 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2811 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2813 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2815 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2817 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2819 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2863 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2865 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2889 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2891 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2893 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2895 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2897 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2899 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2901 has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Net N_2903 has multiple drivers .
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 286MB peak: 318MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 286MB peak: 318MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 286MB peak: 318MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:07s; Memory used current: 228MB peak: 318MB)
+
+Writing Analyst data base C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\synwork\psc16_maximrtl_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 283MB peak: 318MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\psc16_maximrtl_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 291MB peak: 318MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 291MB peak: 318MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 288MB peak: 318MB)
+
+@W: MT246 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":767:8:767:16|Blackbox EFB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock pca9561_clone_delay1|clk_7m00_inferred_clock with period 142.86ns. Please declare a user-defined clock on net clk_7m00.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Fri May 29 15:05:22 2026
+#
+
+
+Top view:               pca9561_clone_delay1
+Requested Frequency:    7.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 132.035
+
+                                                 Requested     Estimated     Requested     Estimated                 Clock        Clock          
+Starting Clock                                   Frequency     Frequency     Period        Period        Slack       Type         Group          
+-------------------------------------------------------------------------------------------------------------------------------------------------
+pca9561_clone_delay1|clk_7m00_inferred_clock     7.0 MHz       92.4 MHz      142.857       10.822        132.035     inferred     (multiple)     
+System                                           100.0 MHz     NA            10.000        NA            141.113     system       system_clkgroup
+=================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                      |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                      Ending                                        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                        pca9561_clone_delay1|clk_7m00_inferred_clock  |  142.857     141.113  |  No paths    -      |  No paths    -      |  No paths    -    
+pca9561_clone_delay1|clk_7m00_inferred_clock  System                                        |  142.857     140.883  |  No paths    -      |  No paths    -      |  No paths    -    
+pca9561_clone_delay1|clk_7m00_inferred_clock  pca9561_clone_delay1|clk_7m00_inferred_clock  |  142.857     132.035  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: pca9561_clone_delay1|clk_7m00_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                 Starting                                                                                 Arrival            
+Instance                         Reference                                        Type        Pin     Net                 Time        Slack  
+                                 Clock                                                                                                       
+---------------------------------------------------------------------------------------------------------------------------------------------
+nv_storage_inst.cmd_id[1]        pca9561_clone_delay1|clk_7m00_inferred_clock     FD1P3IX     Q       cmd_id[1]           1.272       132.035
+nv_storage_inst.cmd_id[0]        pca9561_clone_delay1|clk_7m00_inferred_clock     FD1P3IX     Q       cmd_id[0]           1.268       132.039
+nv_storage_inst.cmd_id[2]        pca9561_clone_delay1|clk_7m00_inferred_clock     FD1P3IX     Q       cmd_id[2]           1.256       132.051
+nv_storage_inst.cmd_index[3]     pca9561_clone_delay1|clk_7m00_inferred_clock     FD1S3IX     Q       ANB1_0              1.232       132.075
+por_shift_0[7]                   pca9561_clone_delay1|clk_7m00_inferred_clock     FD1S3AX     Q       por_shift[7]        1.406       132.989
+nv_storage_inst.state[34]        pca9561_clone_delay1|clk_7m00_inferred_clock     FD1S3AX     Q       state[34]           1.236       133.160
+nv_storage_inst.cmd_index[4]     pca9561_clone_delay1|clk_7m00_inferred_clock     FD1S3IX     Q       ANB2_0              1.204       133.192
+scl_prev                         pca9561_clone_delay1|clk_7m00_inferred_clock     FD1S3AX     Q       scl_prev            1.252       133.849
+rx_bit_count[0]                  pca9561_clone_delay1|clk_7m00_inferred_clock     FD1S3IX     Q       rx_bit_count[0]     1.180       133.921
+rx_bit_count[1]                  pca9561_clone_delay1|clk_7m00_inferred_clock     FD1S3IX     Q       rx_bit_count[1]     1.148       133.952
+=============================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                   Starting                                                                                  Required            
+Instance                           Reference                                        Type        Pin     Net                  Time         Slack  
+                                   Clock                                                                                                         
+-------------------------------------------------------------------------------------------------------------------------------------------------
+nv_storage_inst.wb_data_req[1]     pca9561_clone_delay1|clk_7m00_inferred_clock     FD1P3AX     D       wb_data_req_7[1]     142.946      132.035
+nv_storage_inst.wb_data_req[0]     pca9561_clone_delay1|clk_7m00_inferred_clock     FD1P3AX     D       wb_data_req_7[0]     142.946      132.211
+nv_storage_inst.wb_data_req[2]     pca9561_clone_delay1|clk_7m00_inferred_clock     FD1P3AX     D       wb_data_req_7[2]     142.946      133.052
+nv_storage_inst.wb_data_req[4]     pca9561_clone_delay1|clk_7m00_inferred_clock     FD1P3AX     D       wb_data_req_7[4]     142.946      133.052
+nv_storage_inst.wb_data_req[6]     pca9561_clone_delay1|clk_7m00_inferred_clock     FD1P3AX     D       wb_data_req_7[6]     142.946      133.052
+nv_storage_inst.wb_data_req[5]     pca9561_clone_delay1|clk_7m00_inferred_clock     FD1P3AX     D       wb_data_req_7[5]     142.946      133.260
+nv_storage_inst.wb_data_req[3]     pca9561_clone_delay1|clk_7m00_inferred_clock     FD1P3AX     D       wb_data_req_7[3]     142.946      133.340
+read_addr[0]                       pca9561_clone_delay1|clk_7m00_inferred_clock     FD1S3IX     D       read_addr_16[0]      142.946      133.849
+nv_storage_inst.wb_data_req[7]     pca9561_clone_delay1|clk_7m00_inferred_clock     FD1P3AX     D       wb_data_req_7[7]     142.946      134.108
+nv_storage_inst.page0[0]           pca9561_clone_delay1|clk_7m00_inferred_clock     FD1P3IX     SP      page0_1_sqmuxa       142.386      134.121
+=================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      142.857
+    - Setup time:                            -0.089
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         142.946
+
+    - Propagation time:                      10.911
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     132.035
+
+    Number of logic level(s):                9
+    Starting point:                          nv_storage_inst.cmd_id[1] / Q
+    Ending point:                            nv_storage_inst.wb_data_req[1] / D
+    The start point is clocked by            pca9561_clone_delay1|clk_7m00_inferred_clock [rising] (rise=0.000 fall=71.428 period=142.857) on pin CK
+    The end   point is clocked by            pca9561_clone_delay1|clk_7m00_inferred_clock [rising] (rise=0.000 fall=71.428 period=142.857) on pin CK
+
+Instance / Net                                                    Pin      Pin               Arrival      No. of    
+Name                                                 Type         Name     Dir     Delay     Time         Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+nv_storage_inst.cmd_id[1]                            FD1P3IX      Q        Out     1.272     1.272 r      -         
+cmd_id[1]                                            Net          -        -       -         -            18        
+nv_storage_inst.cmd_index_RNIT6AK3[3]                ORCALUT4     A        In      0.000     1.272 r      -         
+nv_storage_inst.cmd_index_RNIT6AK3[3]                ORCALUT4     Z        Out     1.089     2.361 f      -         
+N_1040                                               Net          -        -       -         -            2         
+nv_storage_inst.cmd_index_RNI6HRBA[4]                ORCALUT4     A        In      0.000     2.361 f      -         
+nv_storage_inst.cmd_index_RNI6HRBA[4]                ORCALUT4     Z        Out     1.193     3.553 f      -         
+N_1041                                               Net          -        -       -         -            4         
+nv_storage_inst.cmd_index_RNIB33MB[2]                ORCALUT4     A        In      0.000     3.553 f      -         
+nv_storage_inst.cmd_index_RNIB33MB[2]                ORCALUT4     Z        Out     1.233     4.786 r      -         
+N_975                                                Net          -        -       -         -            6         
+nv_storage_inst.wb_data_req_7_4_a2_6[2]              ORCALUT4     A        In      0.000     4.786 r      -         
+nv_storage_inst.wb_data_req_7_4_a2_6[2]              ORCALUT4     Z        Out     1.193     5.979 f      -         
+N_1115                                               Net          -        -       -         -            4         
+nv_storage_inst.wb_data_req_7_4_a2_6_RNI1QJ84[2]     ORCALUT4     B        In      0.000     5.979 f      -         
+nv_storage_inst.wb_data_req_7_4_a2_6_RNI1QJ84[2]     ORCALUT4     Z        Out     1.089     7.068 f      -         
+N_1125                                               Net          -        -       -         -            2         
+nv_storage_inst.cmd_id_RNI5ERE7[2]                   ORCALUT4     B        In      0.000     7.068 f      -         
+nv_storage_inst.cmd_id_RNI5ERE7[2]                   ORCALUT4     Z        Out     1.193     8.261 f      -         
+N_228                                                Net          -        -       -         -            4         
+nv_storage_inst.wb_data_req_7_4_3[1]                 ORCALUT4     A        In      0.000     8.261 f      -         
+nv_storage_inst.wb_data_req_7_4_3[1]                 ORCALUT4     Z        Out     1.017     9.277 f      -         
+wb_data_req_7_4_3[1]                                 Net          -        -       -         -            1         
+nv_storage_inst.wb_data_req_7_4_4[1]                 ORCALUT4     D        In      0.000     9.277 f      -         
+nv_storage_inst.wb_data_req_7_4_4[1]                 ORCALUT4     Z        Out     1.017     10.294 f     -         
+wb_data_req_7_4_4[1]                                 Net          -        -       -         -            1         
+nv_storage_inst.wb_data_req_7_4[1]                   ORCALUT4     D        In      0.000     10.294 f     -         
+nv_storage_inst.wb_data_req_7_4[1]                   ORCALUT4     Z        Out     0.617     10.911 f     -         
+wb_data_req_7[1]                                     Net          -        -       -         -            1         
+nv_storage_inst.wb_data_req[1]                       FD1P3AX      D        In      0.000     10.911 f     -         
+====================================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                           Starting                                           Arrival            
+Instance                                   Reference     Type     Pin         Net             Time        Slack  
+                                           Clock                                                                 
+-----------------------------------------------------------------------------------------------------------------
+nv_storage_inst.ufm_efb_inst.EFBInst_0     System        EFB      WBACKO      wb_ack_o        0.000       141.113
+nv_storage_inst.ufm_efb_inst.EFBInst_0     System        EFB      WBDATO0     wb_dat_o[0]     0.000       142.751
+nv_storage_inst.ufm_efb_inst.EFBInst_0     System        EFB      WBDATO1     wb_dat_o[1]     0.000       142.751
+nv_storage_inst.ufm_efb_inst.EFBInst_0     System        EFB      WBDATO2     wb_dat_o[2]     0.000       142.751
+nv_storage_inst.ufm_efb_inst.EFBInst_0     System        EFB      WBDATO3     wb_dat_o[3]     0.000       142.751
+nv_storage_inst.ufm_efb_inst.EFBInst_0     System        EFB      WBDATO4     wb_dat_o[4]     0.000       142.751
+nv_storage_inst.ufm_efb_inst.EFBInst_0     System        EFB      WBDATO5     wb_dat_o[5]     0.000       142.751
+nv_storage_inst.ufm_efb_inst.EFBInst_0     System        EFB      WBDATO6     wb_dat_o[6]     0.000       142.751
+nv_storage_inst.ufm_efb_inst.EFBInst_0     System        EFB      WBDATO7     wb_dat_o[7]     0.000       142.751
+=================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                          Starting                                              Required            
+Instance                                  Reference     Type        Pin     Net                 Time         Slack  
+                                          Clock                                                                     
+--------------------------------------------------------------------------------------------------------------------
+nv_storage_inst.wb_byte_inst.rdata[0]     System        FD1P3IX     SP      N_932_i             142.386      141.113
+nv_storage_inst.wb_byte_inst.rdata[1]     System        FD1P3IX     SP      N_932_i             142.386      141.113
+nv_storage_inst.wb_byte_inst.rdata[2]     System        FD1P3IX     SP      N_932_i             142.386      141.113
+nv_storage_inst.wb_byte_inst.rdata[3]     System        FD1P3IX     SP      N_932_i             142.386      141.113
+nv_storage_inst.wb_byte_inst.rdata[4]     System        FD1P3IX     SP      N_932_i             142.386      141.113
+nv_storage_inst.wb_byte_inst.rdata[5]     System        FD1P3IX     SP      N_932_i             142.386      141.113
+nv_storage_inst.wb_byte_inst.rdata[6]     System        FD1P3IX     SP      N_932_i             142.386      141.113
+nv_storage_inst.wb_byte_inst.rdata[7]     System        FD1P3IX     SP      N_932_i             142.386      141.113
+nv_storage_inst.wb_byte_inst.busy         System        FD1P3IX     SP      un1_req_i_m3[0]     142.386      141.297
+nv_storage_inst.wb_byte_inst.wb_we_o      System        FD1P3IX     SP      un1_req_i_m3[0]     142.386      141.297
+====================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      142.857
+    - Setup time:                            0.472
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         142.386
+
+    - Propagation time:                      1.273
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 141.113
+
+    Number of logic level(s):                1
+    Starting point:                          nv_storage_inst.ufm_efb_inst.EFBInst_0 / WBACKO
+    Ending point:                            nv_storage_inst.wb_byte_inst.rdata[0] / SP
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            pca9561_clone_delay1|clk_7m00_inferred_clock [rising] (rise=0.000 fall=71.428 period=142.857) on pin CK
+
+Instance / Net                                              Pin        Pin               Arrival     No. of    
+Name                                           Type         Name       Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+nv_storage_inst.ufm_efb_inst.EFBInst_0         EFB          WBACKO     Out     0.000     0.000 r     -         
+wb_ack_o                                       Net          -          -       -         -           2         
+nv_storage_inst.wb_byte_inst.busy_RNIP3NT6     ORCALUT4     A          In      0.000     0.000 r     -         
+nv_storage_inst.wb_byte_inst.busy_RNIP3NT6     ORCALUT4     Z          Out     1.273     1.273 r     -         
+N_932_i                                        Net          -          -       -         -           9         
+nv_storage_inst.wb_byte_inst.rdata[0]          FD1P3IX      SP         In      0.000     1.273 r     -         
+===============================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 289MB peak: 318MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 289MB peak: 318MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_1200ze-1
+
+Register bits: 419 of 1280 (33%)
+PIC Latch:       0
+I/O cells:       19
+
+
+Details:
+BB:             1
+CCU2D:          16
+EFB:            1
+FD1P3AX:        18
+FD1P3IX:        223
+FD1P3JX:        1
+FD1S3AX:        102
+FD1S3AY:        9
+FD1S3IX:        52
+FD1S3JX:        3
+GSR:            1
+IB:             12
+IFS1P3BX:       6
+IFS1P3DX:       5
+INV:            3
+OB:             6
+ORCALUT4:       623
+OSCH:           1
+PFUMX:          13
+PUR:            1
+VHI:            4
+VLO:            4
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 139MB peak: 318MB)
+
+Process took 0h:00m:09s realtime, 0h:00m:09s cputime
+# Fri May 29 15:05:22 2026
+
+###########################################################]

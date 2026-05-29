@@ -1,0 +1,7 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"c:\users\amandaschmitt\desktop\psc16_rtl_attempt2\rtl\psc16_top.v":111:17:111:44|Tristate driver un3_sda (in view: work.psc16_top(verilog)) on net sda (in view: work.psc16_top(verilog)) has its enable tied to GND.
+@N: BN115 :"c:\users\amandaschmitt\desktop\psc16_rtl_attempt2\rtl\psc16_top.v":124:6:124:16|Removing instance u_eeprom_nv (in view: work.psc16_top(verilog)) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=7 on top level netlist psc16_top 
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.

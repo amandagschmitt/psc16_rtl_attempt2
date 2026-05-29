@@ -1,0 +1,265 @@
+# Fri May 29 15:05:10 2026
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\Windows\latticediamond\synpbase
+OS: Windows 10 or later
+Hostname: AGSCHMITT_WORK
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 200MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\psc16_maximrtl_impl1_scck.rpt 
+See clock summary report "C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\psc16_maximrtl_impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 200MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 200MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 208MB peak: 208MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 208MB peak: 210MB)
+
+NConnInternalConnection caching is on
+@N: FX493 |Applying initial value "111111" on instance mux_in_meta[5:0].
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX493 |Applying initial value "111111" on instance mux_in_sync[5:0].
+@N: FX493 |Applying initial value "00000000" on instance por_shift[7:0].
+@N: FX493 |Applying initial value "000000" on instance mux_selected_q_d[5:0].
+@N: FX493 |Applying initial value "000000" on instance eeprom0[5:0].
+@N: FX493 |Applying initial value "000000" on instance eeprom1[5:0].
+@N: FX493 |Applying initial value "000000" on instance eeprom2[5:0].
+@N: FX493 |Applying initial value "000000" on instance eeprom3[5:0].
+@N: FX493 |Applying initial value "0" on instance pending_output_cmd_valid.
+@N: FX493 |Applying initial value "0" on instance sda_drive_low.
+@N: FX493 |Applying initial value "0001" on instance pending_output_cmd[3:0].
+@N: FX493 |Applying initial value "0001" on instance output_cmd[3:0].
+@N: FX493 |Applying initial value "000000" on instance mux_selected_q[5:0].
+@W: BN132 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":670:4:670:9|Removing sequential instance nv_storage_inst.wb_byte_inst.wb_stb_o because it is equivalent to instance nv_storage_inst.wb_byte_inst.wb_cyc_o. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":670:4:670:9|Removing sequential instance nv_storage_inst.wb_byte_inst.wb_cyc_o because it is equivalent to instance nv_storage_inst.wb_byte_inst.busy. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 258MB peak: 258MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 258MB peak: 259MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 258MB peak: 259MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 258MB peak: 259MB)
+
+Encoding state machine state[39:0] (in view: work.pca9561_nv_storage(verilog))
+original code -> new code
+   00000000 -> 0000000000000000000000000000000000000001
+   00000001 -> 0000000000000000000000000000000000000010
+   00000010 -> 0000000000000000000000000000000000000100
+   00000011 -> 0000000000000000000000000000000000001000
+   00000100 -> 0000000000000000000000000000000000010000
+   00000101 -> 0000000000000000000000000000000000100000
+   00000110 -> 0000000000000000000000000000000001000000
+   00000111 -> 0000000000000000000000000000000010000000
+   00001000 -> 0000000000000000000000000000000100000000
+   00001001 -> 0000000000000000000000000000001000000000
+   00001010 -> 0000000000000000000000000000010000000000
+   00001011 -> 0000000000000000000000000000100000000000
+   00001100 -> 0000000000000000000000000001000000000000
+   00001101 -> 0000000000000000000000000010000000000000
+   00001110 -> 0000000000000000000000000100000000000000
+   00001111 -> 0000000000000000000000001000000000000000
+   00010000 -> 0000000000000000000000010000000000000000
+   00010001 -> 0000000000000000000000100000000000000000
+   00010010 -> 0000000000000000000001000000000000000000
+   00010011 -> 0000000000000000000010000000000000000000
+   00010100 -> 0000000000000000000100000000000000000000
+   00010101 -> 0000000000000000001000000000000000000000
+   00010110 -> 0000000000000000010000000000000000000000
+   00010111 -> 0000000000000000100000000000000000000000
+   00011000 -> 0000000000000001000000000000000000000000
+   00011001 -> 0000000000000010000000000000000000000000
+   00011010 -> 0000000000000100000000000000000000000000
+   00011011 -> 0000000000001000000000000000000000000000
+   00011100 -> 0000000000010000000000000000000000000000
+   00011101 -> 0000000000100000000000000000000000000000
+   00011110 -> 0000000001000000000000000000000000000000
+   00011111 -> 0000000010000000000000000000000000000000
+   00101000 -> 0000000100000000000000000000000000000000
+   00101001 -> 0000001000000000000000000000000000000000
+   00101100 -> 0000010000000000000000000000000000000000
+   00101101 -> 0000100000000000000000000000000000000000
+   00110000 -> 0001000000000000000000000000000000000000
+   00110001 -> 0010000000000000000000000000000000000000
+   00110010 -> 0100000000000000000000000000000000000000
+   00110011 -> 1000000000000000000000000000000000000000
+@N: FX493 |Applying initial value "1" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: FX493 |Applying initial value "0" on instance state[2].
+@N: FX493 |Applying initial value "0" on instance state[3].
+@N: FX493 |Applying initial value "0" on instance state[4].
+@N: FX493 |Applying initial value "0" on instance state[5].
+@N: FX493 |Applying initial value "0" on instance state[6].
+@N: FX493 |Applying initial value "0" on instance state[7].
+@N: FX493 |Applying initial value "0" on instance state[8].
+@N: FX493 |Applying initial value "0" on instance state[9].
+@N: FX493 |Applying initial value "0" on instance state[10].
+@N: FX493 |Applying initial value "0" on instance state[11].
+@N: FX493 |Applying initial value "0" on instance state[12].
+@N: FX493 |Applying initial value "0" on instance state[13].
+@N: FX493 |Applying initial value "0" on instance state[14].
+@N: FX493 |Applying initial value "0" on instance state[15].
+@N: FX493 |Applying initial value "0" on instance state[16].
+@N: FX493 |Applying initial value "0" on instance state[17].
+@N: FX493 |Applying initial value "0" on instance state[18].
+@N: FX493 |Applying initial value "0" on instance state[19].
+@N: FX493 |Applying initial value "0" on instance state[20].
+@N: FX493 |Applying initial value "0" on instance state[21].
+@N: FX493 |Applying initial value "0" on instance state[22].
+@N: FX493 |Applying initial value "0" on instance state[23].
+@N: FX493 |Applying initial value "0" on instance state[24].
+@N: FX493 |Applying initial value "0" on instance state[25].
+@N: FX493 |Applying initial value "0" on instance state[26].
+@N: FX493 |Applying initial value "0" on instance state[27].
+@N: FX493 |Applying initial value "0" on instance state[28].
+@N: FX493 |Applying initial value "0" on instance state[29].
+@N: FX493 |Applying initial value "0" on instance state[30].
+@N: FX493 |Applying initial value "0" on instance state[31].
+@N: FX493 |Applying initial value "0" on instance state[32].
+@N: FX493 |Applying initial value "0" on instance state[33].
+@N: FX493 |Applying initial value "0" on instance state[34].
+@N: FX493 |Applying initial value "0" on instance state[35].
+@N: FX493 |Applying initial value "0" on instance state[36].
+@N: FX493 |Applying initial value "0" on instance state[37].
+@N: FX493 |Applying initial value "0" on instance state[38].
+@N: FX493 |Applying initial value "0" on instance state[39].
+Encoding state machine state[7:0] (in view: work.pca9561_clone_delay1(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+@N: FX493 |Applying initial value "1" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: FX493 |Applying initial value "0" on instance state[2].
+@N: FX493 |Applying initial value "0" on instance state[3].
+@N: FX493 |Applying initial value "0" on instance state[4].
+@N: FX493 |Applying initial value "0" on instance state[5].
+@N: FX493 |Applying initial value "0" on instance state[6].
+@N: FX493 |Applying initial value "0" on instance state[7].
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 268MB)
+
+
+mixed edge conversion for GCC is OFF
+@W: BZ204 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":46:6:46:13|GCC unable to propagate clocks through gate osc_inst; all outputs will be treated as enables regardless of whether any inputs are clocks
+@W: BZ240 :|GCC encountered Inferred Clock constraint on net GCC considers to be data clk_7m00; this will likely lead to failure to convert
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 268MB peak: 269MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 269MB peak: 269MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 269MB peak: 269MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=7 on top level netlist pca9561_clone_delay1 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 269MB peak: 269MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                            Requested     Requested     Clock        Clock               Clock
+Level     Clock                                            Frequency     Period        Type         Group               Load 
+-----------------------------------------------------------------------------------------------------------------------------
+0 -       System                                           100.0 MHz     10.000        system       system_clkgroup     0    
+                                                                                                                             
+0 -       pca9561_clone_delay1|clk_7m00_inferred_clock     7.0 MHz       142.857       inferred     (multiple)          424  
+=============================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                 Clock     Source                 Clock Pin       Non-clock Pin     Non-clock Pin
+Clock                                            Load      Pin                    Seq Example     Seq Example       Comb Example 
+---------------------------------------------------------------------------------------------------------------------------------
+System                                           0         -                      -               -                 -            
+                                                                                                                                 
+pca9561_clone_delay1|clk_7m00_inferred_clock     424       osc_inst.OSC(OSCH)     scl_meta.C      -                 -            
+=================================================================================================================================
+
+@W: MT529 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":670:4:670:9|Found inferred clock pca9561_clone_delay1|clk_7m00_inferred_clock which controls 424 sequential elements including nv_storage_inst.wb_byte_inst.wb_adr_o[6:4]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 424 clock pin(s) of sequential element(s)
+0 instances converted, 424 sequential instances remain driven by gated/generated clocks
+
+======================================================= Gated/Generated Clocks ========================================================
+Clock Tree ID     Driving Element     Drive Element Type     Unconverted Fanout     Sample Instance     Explanation                    
+---------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_1       osc_inst.OSC        OSCH                   424                    state[7]            Clock source is invalid for GCC
+=======================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 270MB peak: 270MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 270MB peak: 271MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 271MB peak: 271MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 272MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Fri May 29 15:05:12 2026
+
+###########################################################]

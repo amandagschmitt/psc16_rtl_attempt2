@@ -1,0 +1,19 @@
+if {![file exists "C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/psc16redo_simulation/psc16redo_simulation.mpf"]} { 
+	project new "C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/psc16redo_simulation" psc16redo_simulation
+	project addfile "C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/rtl/psc16_eeprom_nv.v"
+	project addfile "C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/rtl/psc16_top.v"
+	project addfile "C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/tb/tb_psc16_top.v"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vlog  +incdir+C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/rtl  -work work  "C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/rtl/psc16_eeprom_nv.v"
+	vlog  +incdir+C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/rtl  -work work  "C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/rtl/psc16_top.v"
+	vlog  +incdir+C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/tb  -work work  "C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/tb/tb_psc16_top.v"
+} else {
+	project open "C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/psc16redo_simulation/psc16redo_simulation"
+	project compileoutofdate
+}
+vsim -voptargs=+acc -L work -L pmi_work -L ovi_machxo2  psc16_top
+view wave
+add wave /*
+run 1000ns

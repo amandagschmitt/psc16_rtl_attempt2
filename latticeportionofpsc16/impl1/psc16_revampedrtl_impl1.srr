@@ -1,0 +1,507 @@
+#Build: Synplify Pro (R) V-2023.09L-2, Build 349R, Sep 17 2024
+#install: C:\Windows\latticediamond\synpbase
+#OS: Windows 10 or later
+#Hostname: AGSCHMITT_WORK
+
+# Fri May 29 14:36:17 2026
+
+#Implementation: impl1
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\Windows\latticediamond\synpbase
+OS: Windows 10 or later
+Hostname: AGSCHMITT_WORK
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\Windows\latticediamond\synpbase
+OS: Windows 10 or later
+Hostname: AGSCHMITT_WORK
+
+Implementation : impl1
+Synopsys Verilog Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+@I::"C:\Windows\latticediamond\synpbase\lib\lucent\machxo2.v" (library work)
+@I::"C:\Windows\latticediamond\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\Windows\latticediamond\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.v" (library work)
+@I::"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v" (library work)
+Verilog syntax check successful!
+Selecting top level module psc16_top
+@N: CG364 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.v":21:7:21:21|Synthesizing module psc16_eeprom_nv in library work.
+
+	WRITE_CYCLE_TIME=32'b00000000001101101110111010000000
+   Generated name = psc16_eeprom_nv_3600000s
+Opening data file psc16_eeprom_nv_3600000s_eeprom_register_12076_initial_block from directory .
+@W: CG532 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.v":65:4:65:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on psc16_eeprom_nv_3600000s .......
+Finished optimization stage 1 on psc16_eeprom_nv_3600000s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CG364 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":20:7:20:15|Synthesizing module psc16_top in library work.
+@W: CG532 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":423:4:423:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CG296 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":444:13:444:23|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":447:27:447:38|Referenced variable previous_sda is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":294:46:294:61|Referenced variable control_register is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":288:45:288:61|Referenced variable i2c_slave_address is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":192:48:192:61|Referenced variable mux_input_data is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":137:46:137:63|Referenced variable eeprom_data_packed is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":291:36:291:52|Referenced variable eeprom_write_busy is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":245:17:245:18|Referenced variable wp is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":445:22:445:33|Referenced variable previous_scl is not in sensitivity list.
+Running optimization stage 1 on psc16_top .......
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: after_ack_action
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: commit_eeprom_write
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: output_command
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: output_command_active
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: pending_write_count
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: pending_write_data_packed
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: pending_write_start_address
+Finished optimization stage 1 on psc16_top (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on psc16_top .......
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":23:16:23:18|Input scl is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":26:16:26:17|Input a0 is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":27:16:27:17|Input a1 is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":28:16:28:17|Input wp is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":29:16:29:25|Input mux_select is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":31:16:31:23|Input mux_in_a is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":32:16:32:23|Input mux_in_b is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":33:16:33:23|Input mux_in_c is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":34:16:34:23|Input mux_in_d is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":35:16:35:23|Input mux_in_e is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":36:16:36:23|Input mux_in_f is unused.
+Finished optimization stage 2 on psc16_top (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 100MB)
+Running optimization stage 2 on psc16_eeprom_nv_3600000s .......
+@N: CL189 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.v":74:4:74:9|Register bit write_busy is always 0.
+Finished optimization stage 2 on psc16_eeprom_nv_3600000s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 100MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 29 14:36:18 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\Windows\latticediamond\synpbase
+OS: Windows 10 or later
+Hostname: AGSCHMITT_WORK
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 94MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 29 14:36:18 2026
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\synwork\psc16_revampedrtl_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 24MB peak: 25MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 29 14:36:18 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\Windows\latticediamond\synpbase
+OS: Windows 10 or later
+Hostname: AGSCHMITT_WORK
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 93MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 29 14:36:20 2026
+
+###########################################################]
+Premap Report
+
+# Fri May 29 14:36:20 2026
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\Windows\latticediamond\synpbase
+OS: Windows 10 or later
+Hostname: AGSCHMITT_WORK
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 200MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\psc16_revampedrtl_impl1_scck.rpt 
+See clock summary report "C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\psc16_revampedrtl_impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 200MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 192MB peak: 200MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 206MB peak: 206MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 206MB peak: 208MB)
+
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 257MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 257MB)
+
+@N: MO111 :"c:\users\amandaschmitt\desktop\psc16_rtl_attempt2\rtl\psc16_top.v":111:17:111:44|Tristate driver un3_sda (in view: work.psc16_top(verilog)) on net sda (in view: work.psc16_top(verilog)) has its enable tied to GND.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 257MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 257MB)
+
+@N: BN115 :"c:\users\amandaschmitt\desktop\psc16_rtl_attempt2\rtl\psc16_top.v":124:6:124:16|Removing instance u_eeprom_nv (in view: work.psc16_top(verilog)) because it does not drive other instances.
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+
+mixed edge conversion for GCC is OFF
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 259MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=7 on top level netlist psc16_top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 259MB)
+
+
+
+Clock Summary
+******************
+
+          Start     Requested     Requested     Clock     Clock     Clock
+Level     Clock     Frequency     Period        Type      Group     Load 
+-------------------------------------------------------------------------
+=========================================================================
+
+
+
+Clock Load Summary
+***********************
+
+          Clock     Source     Clock Pin       Non-clock Pin     Non-clock Pin
+Clock     Load      Pin        Seq Example     Seq Example       Comb Example 
+------------------------------------------------------------------------------
+==============================================================================
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 259MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 260MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 259MB peak: 260MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 261MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri May 29 14:36:22 2026
+
+###########################################################]
+Map & Optimize Report
+
+# Fri May 29 14:36:22 2026
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\Windows\latticediamond\synpbase
+OS: Windows 10 or later
+Hostname: AGSCHMITT_WORK
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 185MB peak: 185MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 200MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 187MB peak: 200MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 201MB peak: 201MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 203MB peak: 205MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+@N: MO111 :"c:\users\amandaschmitt\desktop\psc16_rtl_attempt2\rtl\psc16_top.v":111:17:111:44|Tristate driver un3_sda (in view: work.psc16_top(verilog)) on net sda (in view: work.psc16_top(verilog)) has its enable tied to GND.
+@W: BN161 :"c:\users\amandaschmitt\desktop\psc16_rtl_attempt2\rtl\psc16_top.v":20:7:20:15|Net sda has multiple drivers .
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 258MB peak: 258MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 259MB peak: 259MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 259MB peak: 260MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
+
+@W: BN161 :"c:\users\amandaschmitt\desktop\psc16_rtl_attempt2\rtl\psc16_top.v":20:7:20:15|Net sda has multiple drivers .
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 261MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 261MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 261MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 261MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		100000.00ns		   0 /         0
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 261MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: MO111 :"c:\users\amandaschmitt\desktop\psc16_rtl_attempt2\rtl\psc16_top.v":24:16:24:18|Tristate driver sda_obuft.un1[0] (in view: work.psc16_top(verilog)) on net sda (in view: work.psc16_top(verilog)) has its enable tied to GND.
+@W: BN161 :"c:\users\amandaschmitt\desktop\psc16_rtl_attempt2\rtl\psc16_top.v":20:7:20:15|Net sda has multiple drivers .
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 261MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 262MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 262MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 207MB peak: 262MB)
+
+Writing Analyst data base C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\synwork\psc16_revampedrtl_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 262MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\psc16_revampedrtl_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 269MB peak: 269MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 269MB peak: 270MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 269MB peak: 270MB)
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Fri May 29 14:36:25 2026
+#
+
+
+Top view:               psc16_top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: NA
+
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 270MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 270MB peak: 271MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_1200ze-1
+
+Register bits: 0 of 1280 (0%)
+PIC Latch:       0
+I/O cells:       7
+
+
+Details:
+GSR:            1
+OB:             6
+OBZ:            1
+PUR:            1
+VHI:            1
+VLO:            1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 131MB peak: 271MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Fri May 29 14:36:25 2026
+
+###########################################################]

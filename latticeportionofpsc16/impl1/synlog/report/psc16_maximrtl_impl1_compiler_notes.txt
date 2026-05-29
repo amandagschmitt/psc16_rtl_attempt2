@@ -1,0 +1,31 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Windows\latticediamond\synpbase\lib\lucent\machxo2.v":1793:7:1793:10|Synthesizing module OSCH in library work.
+@N: CG364 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":650:7:650:21|Synthesizing module pca9561_wb_byte in library work.
+@N: CG364 :"C:\Windows\latticediamond\synpbase\lib\lucent\machxo2.v":1800:7:1800:9|Synthesizing module EFB in library work.
+@N: CG364 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":703:7:703:21|Synthesizing module pca9561_ufm_efb in library work.
+@N: CG364 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":3:7:3:24|Synthesizing module pca9561_nv_storage in library work.
+@N: CG364 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":17:7:17:26|Synthesizing module pca9561_clone_delay1 in library work.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Register bit read_mode[1] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Register bit tx_byte[6] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Register bit tx_byte[7] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Register bit busy_count[15] is always 0.
+@N: CL201 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Trying to extract state machine for register state.
+@N: CL159 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":25:19:25:26|Input dummy_in is unused.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit return_state[5] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit return_state[6] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit return_state[7] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit wb_addr_req[2] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit wb_addr_req[3] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit wb_addr_req[7] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit cmd_id[3] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit read_len[1] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit read_len[2] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit read_len[3] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit cmd_len[0] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit cmd_len[1] is always 0.
+@N: CL201 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Trying to extract state machine for register state.
+@N|Running in 64-bit mode
+@N: NF107 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Selected library: work cell: pca9561_clone_delay1 view verilog as top level
+@N: NF107 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Selected library: work cell: pca9561_clone_delay1 view verilog as top level
+

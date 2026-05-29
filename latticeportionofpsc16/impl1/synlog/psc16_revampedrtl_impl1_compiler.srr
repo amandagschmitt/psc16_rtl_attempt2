@@ -1,0 +1,140 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\Windows\latticediamond\synpbase
+OS: Windows 10 or later
+Hostname: AGSCHMITT_WORK
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\Windows\latticediamond\synpbase
+OS: Windows 10 or later
+Hostname: AGSCHMITT_WORK
+
+Implementation : impl1
+Synopsys Verilog Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+@I::"C:\Windows\latticediamond\synpbase\lib\lucent\machxo2.v" (library work)
+@I::"C:\Windows\latticediamond\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\Windows\latticediamond\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.v" (library work)
+@I::"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v" (library work)
+Verilog syntax check successful!
+Selecting top level module psc16_top
+@N: CG364 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.v":21:7:21:21|Synthesizing module psc16_eeprom_nv in library work.
+
+	WRITE_CYCLE_TIME=32'b00000000001101101110111010000000
+   Generated name = psc16_eeprom_nv_3600000s
+Opening data file psc16_eeprom_nv_3600000s_eeprom_register_12076_initial_block from directory .
+@W: CG532 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.v":65:4:65:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+Running optimization stage 1 on psc16_eeprom_nv_3600000s .......
+Finished optimization stage 1 on psc16_eeprom_nv_3600000s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CG364 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":20:7:20:15|Synthesizing module psc16_top in library work.
+@W: CG532 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":423:4:423:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CG296 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":444:13:444:23|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":447:27:447:38|Referenced variable previous_sda is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":294:46:294:61|Referenced variable control_register is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":288:45:288:61|Referenced variable i2c_slave_address is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":192:48:192:61|Referenced variable mux_input_data is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":137:46:137:63|Referenced variable eeprom_data_packed is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":291:36:291:52|Referenced variable eeprom_write_busy is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":245:17:245:18|Referenced variable wp is not in sensitivity list.
+@W: CG290 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":445:22:445:33|Referenced variable previous_scl is not in sensitivity list.
+Running optimization stage 1 on psc16_top .......
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: after_ack_action
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: commit_eeprom_write
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: output_command
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: output_command_active
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: pending_write_count
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: pending_write_data_packed
+@W: CL182 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":450:8:450:9|Signal read but some bits are never set, assigning initial value to unassigned bits: pending_write_start_address
+Finished optimization stage 1 on psc16_top (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on psc16_top .......
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":23:16:23:18|Input scl is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":26:16:26:17|Input a0 is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":27:16:27:17|Input a1 is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":28:16:28:17|Input wp is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":29:16:29:25|Input mux_select is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":31:16:31:23|Input mux_in_a is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":32:16:32:23|Input mux_in_b is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":33:16:33:23|Input mux_in_c is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":34:16:34:23|Input mux_in_d is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":35:16:35:23|Input mux_in_e is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":36:16:36:23|Input mux_in_f is unused.
+Finished optimization stage 2 on psc16_top (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 100MB)
+Running optimization stage 2 on psc16_eeprom_nv_3600000s .......
+@N: CL189 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.v":74:4:74:9|Register bit write_busy is always 0.
+Finished optimization stage 2 on psc16_eeprom_nv_3600000s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 100MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 29 14:36:18 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\Windows\latticediamond\synpbase
+OS: Windows 10 or later
+Hostname: AGSCHMITT_WORK
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 94MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 29 14:36:18 2026
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\synwork\psc16_revampedrtl_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 24MB peak: 25MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 29 14:36:18 2026
+
+###########################################################]

@@ -1,0 +1,16 @@
+@P:  Worst Slack : 132.035
+@P:  pca9561_clone_delay1|clk_7m00_inferred_clock - Estimated Frequency : 92.4 MHz
+@P:  pca9561_clone_delay1|clk_7m00_inferred_clock - Requested Frequency : 7.0 MHz
+@P:  pca9561_clone_delay1|clk_7m00_inferred_clock - Estimated Period : 10.822
+@P:  pca9561_clone_delay1|clk_7m00_inferred_clock - Requested Period : 142.857
+@P:  pca9561_clone_delay1|clk_7m00_inferred_clock - Slack : 132.035
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 141.113
+@P:  Total Area : 626.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  Total Area : 0.0
+@P:  CPU Time : 0h:00m:09s

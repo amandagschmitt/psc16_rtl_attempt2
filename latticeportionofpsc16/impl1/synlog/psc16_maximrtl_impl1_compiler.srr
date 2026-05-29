@@ -1,0 +1,229 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\Windows\latticediamond\synpbase
+OS: Windows 10 or later
+Hostname: AGSCHMITT_WORK
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\Windows\latticediamond\synpbase
+OS: Windows 10 or later
+Hostname: AGSCHMITT_WORK
+
+Implementation : impl1
+Synopsys Verilog Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+@I::"C:\Windows\latticediamond\synpbase\lib\lucent\machxo2.v" (library work)
+@I::"C:\Windows\latticediamond\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\Windows\latticediamond\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v" (library work)
+@I::"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module pca9561_clone_delay1
+@N: CG364 :"C:\Windows\latticediamond\synpbase\lib\lucent\machxo2.v":1793:7:1793:10|Synthesizing module OSCH in library work.
+Running optimization stage 1 on OSCH .......
+Finished optimization stage 1 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+@N: CG364 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":650:7:650:21|Synthesizing module pca9561_wb_byte in library work.
+Running optimization stage 1 on pca9561_wb_byte .......
+Finished optimization stage 1 on pca9561_wb_byte (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\Windows\latticediamond\synpbase\lib\lucent\machxo2.v":1800:7:1800:9|Synthesizing module EFB in library work.
+Running optimization stage 1 on EFB .......
+Finished optimization stage 1 on EFB (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":703:7:703:21|Synthesizing module pca9561_ufm_efb in library work.
+Running optimization stage 1 on pca9561_ufm_efb .......
+Finished optimization stage 1 on pca9561_ufm_efb (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":3:7:3:24|Synthesizing module pca9561_nv_storage in library work.
+Running optimization stage 1 on pca9561_nv_storage .......
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register status1[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register status2[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register status3[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register page10[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register page11[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register page12[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register page13[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register page14[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused register page15[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused bits 6 to 0 of status0[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused bits 7 to 6 of page5[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused bits 7 to 6 of page6[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused bits 7 to 6 of page7[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning unused bits 7 to 6 of page8[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on pca9561_nv_storage (CPU Time 0h:00m:00s, Memory Used current: 103MB peak: 122MB)
+@N: CG364 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":17:7:17:26|Synthesizing module pca9561_clone_delay1 in library work.
+Running optimization stage 1 on pca9561_clone_delay1 .......
+@W: CL169 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Pruning unused register mux_select_sync[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Pruning unused bits 7 to 4 of output_cmd[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Pruning unused bits 7 to 4 of pending_output_cmd[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL265 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Removing unused bit 7 of rx_shift[7:0]. Either assign all bits or reduce the width of the signal.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Register bit read_mode[1] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Register bit tx_byte[6] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Register bit tx_byte[7] is always 0.
+@W: CL279 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Pruning register bits 7 to 6 of tx_byte[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Pruning register bit 1 of read_mode[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Finished optimization stage 1 on pca9561_clone_delay1 (CPU Time 0h:00m:00s, Memory Used current: 104MB peak: 122MB)
+Running optimization stage 2 on pca9561_clone_delay1 .......
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Register bit busy_count[15] is always 0.
+@W: CL260 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Pruning register bit 15 of busy_count[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":254:4:254:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 8 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+   111
+@N: CL159 :"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v":25:19:25:26|Input dummy_in is unused.
+Finished optimization stage 2 on pca9561_clone_delay1 (CPU Time 0h:00m:00s, Memory Used current: 105MB peak: 122MB)
+Running optimization stage 2 on pca9561_nv_storage .......
+@W: CL138 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Removing register 'error' because it is only assigned 0 or its original value.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit return_state[5] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit return_state[6] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit return_state[7] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit wb_addr_req[2] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit wb_addr_req[3] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit wb_addr_req[7] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit cmd_id[3] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit read_len[1] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit read_len[2] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit read_len[3] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit cmd_len[0] is always 0.
+@N: CL189 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Register bit cmd_len[1] is always 0.
+@W: CL279 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning register bits 1 to 0 of cmd_len[4:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning register bits 3 to 1 of read_len[4:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning register bit 3 of cmd_id[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning register bit 7 of wb_addr_req[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning register bits 3 to 2 of wb_addr_req[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning register bits 7 to 5 of return_state[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL201 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 40 reachable states with original encodings of:
+   00000000
+   00000001
+   00000010
+   00000011
+   00000100
+   00000101
+   00000110
+   00000111
+   00001000
+   00001001
+   00001010
+   00001011
+   00001100
+   00001101
+   00001110
+   00001111
+   00010000
+   00010001
+   00010010
+   00010011
+   00010100
+   00010101
+   00010110
+   00010111
+   00011000
+   00011001
+   00011010
+   00011011
+   00011100
+   00011101
+   00011110
+   00011111
+   00101000
+   00101001
+   00101100
+   00101101
+   00110000
+   00110001
+   00110010
+   00110011
+@W: CL279 :"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v":383:4:383:9|Pruning register bits 6 to 5 of wb_addr_req[6:4]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on pca9561_nv_storage (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 124MB)
+Running optimization stage 2 on pca9561_ufm_efb .......
+Finished optimization stage 2 on pca9561_ufm_efb (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 124MB)
+Running optimization stage 2 on EFB .......
+Finished optimization stage 2 on EFB (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 124MB)
+Running optimization stage 2 on pca9561_wb_byte .......
+Finished optimization stage 2 on pca9561_wb_byte (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 124MB)
+Running optimization stage 2 on OSCH .......
+Finished optimization stage 2 on OSCH (CPU Time 0h:00m:00s, Memory Used current: 107MB peak: 124MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 107MB peak: 124MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Fri May 29 15:05:08 2026
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\Windows\latticediamond\synpbase
+OS: Windows 10 or later
+Hostname: AGSCHMITT_WORK
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+@N: NF107 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Selected library: work cell: pca9561_clone_delay1 view verilog as top level
+@N: NF107 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":17:7:17:26|Selected library: work cell: pca9561_clone_delay1 view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 94MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 29 15:05:08 2026
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\synwork\psc16_maximrtl_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 32MB peak: 33MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+
+Process completed successfully.
+# Fri May 29 15:05:08 2026
+
+###########################################################]

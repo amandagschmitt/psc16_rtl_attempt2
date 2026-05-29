@@ -1,0 +1,6 @@
+#List of actual used RTLs.
+
+File                                                             Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v"     verilog                      IN PROJECT
+"C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v"       verilog                      IN PROJECT

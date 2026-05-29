@@ -1,0 +1,10 @@
+#Start recording tcl command: 5/29/2026 14:35:34
+#Project Location: C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/latticeportionofpsc16; Project name: psc16_revampedrtl
+prj_project new -name "psc16_revampedrtl" -impl "impl1" -dev LCMXO2-1200ZE-1UWG25ITR -synthesis "synplify"
+prj_src add "C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/rtl/psc16_eeprom_nv.v" "C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/rtl/psc16_top.v"
+prj_project save
+prj_impl option -impl impl1 top psc16_top
+prj_impl option -impl impl1 VerilogStandard {"Verilog 2001"}
+prj_run Synthesis -impl impl1
+prj_src add "C:/Users/AmandaSchmitt/Desktop/psc16_rtl_attempt2/psc16redo_simulation/psc16redo_simulation.spf"
+#Stop recording: 5/29/2026 15:02:52

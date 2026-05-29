@@ -1,0 +1,18 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.v":21:7:21:21|Synthesizing module psc16_eeprom_nv in library work.
+@N: CG364 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":20:7:20:15|Synthesizing module psc16_top in library work.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":23:16:23:18|Input scl is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":26:16:26:17|Input a0 is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":27:16:27:17|Input a1 is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":28:16:28:17|Input wp is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":29:16:29:25|Input mux_select is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":31:16:31:23|Input mux_in_a is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":32:16:32:23|Input mux_in_b is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":33:16:33:23|Input mux_in_c is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":34:16:34:23|Input mux_in_d is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":35:16:35:23|Input mux_in_e is unused.
+@N: CL159 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.v":36:16:36:23|Input mux_in_f is unused.
+@N: CL189 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.v":74:4:74:9|Register bit write_busy is always 0.
+@N|Running in 64-bit mode
+

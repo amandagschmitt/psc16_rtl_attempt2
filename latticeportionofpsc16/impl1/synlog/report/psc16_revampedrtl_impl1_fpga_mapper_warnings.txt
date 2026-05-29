@@ -1,0 +1,3 @@
+@W: BN161 :"c:\users\amandaschmitt\desktop\psc16_rtl_attempt2\rtl\psc16_top.v":20:7:20:15|Net sda has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\desktop\psc16_rtl_attempt2\rtl\psc16_top.v":20:7:20:15|Net sda has multiple drivers .
+@W: BN161 :"c:\users\amandaschmitt\desktop\psc16_rtl_attempt2\rtl\psc16_top.v":20:7:20:15|Net sda has multiple drivers .

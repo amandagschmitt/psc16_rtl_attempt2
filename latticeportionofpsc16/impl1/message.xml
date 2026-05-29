@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning unused register status1[7:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register status1[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning unused register status2[7:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register status2[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning unused register status3[7:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register status3[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning unused register page10[7:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register page10[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning unused register page11[7:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register page11[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning unused register page12[7:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register page12[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning unused register page13[7:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register page13[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning unused register page14[7:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register page14[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning unused register page15[7:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register page15[7:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning unused bits 6 to 0 of status0[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused bits 6 to 0 of status0[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning unused bits 7 to 6 of page5[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused bits 7 to 6 of page5[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning unused bits 7 to 6 of page6[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused bits 7 to 6 of page6[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning unused bits 7 to 6 of page7[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused bits 7 to 6 of page7[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning unused bits 7 to 6 of page8[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused bits 7 to 6 of page8[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL169 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v&quot;:254:4:254:9|Pruning unused register mux_select_sync[1:0]. Make sure that there are no unused intermediate registers.</Dynamic>
+            <Navigation>CL169</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>254</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>254</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused register mux_select_sync[1:0]. Make sure that there are no unused intermediate registers.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v&quot;:254:4:254:9|Pruning unused bits 7 to 4 of output_cmd[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>254</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>254</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused bits 7 to 4 of output_cmd[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL271 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v&quot;:254:4:254:9|Pruning unused bits 7 to 4 of pending_output_cmd[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL271</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>254</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>254</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning unused bits 7 to 4 of pending_output_cmd[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL265 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v&quot;:254:4:254:9|Removing unused bit 7 of rx_shift[7:0]. Either assign all bits or reduce the width of the signal.</Dynamic>
+            <Navigation>CL265</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>254</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>254</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Removing unused bit 7 of rx_shift[7:0]. Either assign all bits or reduce the width of the signal.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v&quot;:254:4:254:9|Pruning register bits 7 to 6 of tx_byte[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>254</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>254</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bits 7 to 6 of tx_byte[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v&quot;:254:4:254:9|Pruning register bit 1 of read_mode[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>254</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>254</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bit 1 of read_mode[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v&quot;:254:4:254:9|Pruning register bit 15 of busy_count[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>254</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>254</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bit 15 of busy_count[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL138 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Removing register 'error' because it is only assigned 0 or its original value.</Dynamic>
+            <Navigation>CL138</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Removing register 'error' because it is only assigned 0 or its original value.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning register bits 1 to 0 of cmd_len[4:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bits 1 to 0 of cmd_len[4:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning register bits 3 to 1 of read_len[4:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bits 3 to 1 of read_len[4:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning register bit 3 of cmd_id[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bit 3 of cmd_id[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning register bit 7 of wb_addr_req[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bit 7 of wb_addr_req[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning register bits 3 to 2 of wb_addr_req[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bits 3 to 2 of wb_addr_req[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning register bits 7 to 5 of return_state[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bits 7 to 5 of return_state[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v&quot;:383:4:383:9|Pruning register bits 6 to 5 of wb_addr_req[6:4]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>383</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Pruning register bits 6 to 5 of wb_addr_req[6:4]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\amandaschmitt\downloads\pca9561_nv_storage.v&quot;:670:4:670:9|Removing sequential instance nv_storage_inst.wb_byte_inst.wb_stb_o because it is equivalent to instance nv_storage_inst.wb_byte_inst.wb_cyc_o. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>670</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>670</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Removing sequential instance nv_storage_inst.wb_byte_inst.wb_stb_o because it is equivalent to instance nv_storage_inst.wb_byte_inst.wb_cyc_o. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\amandaschmitt\downloads\pca9561_nv_storage.v&quot;:670:4:670:9|Removing sequential instance nv_storage_inst.wb_byte_inst.wb_cyc_o because it is equivalent to instance nv_storage_inst.wb_byte_inst.busy. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>670</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>670</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Removing sequential instance nv_storage_inst.wb_byte_inst.wb_cyc_o because it is equivalent to instance nv_storage_inst.wb_byte_inst.busy. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BZ204 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:46:6:46:13|GCC unable to propagate clocks through gate osc_inst; all outputs will be treated as enables regardless of whether any inputs are clocks</Dynamic>
+            <Navigation>BZ204</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>GCC unable to propagate clocks through gate osc_inst; all outputs will be treated as enables regardless of whether any inputs are clocks</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\amandaschmitt\downloads\pca9561_nv_storage.v&quot;:670:4:670:9|Found inferred clock pca9561_clone_delay1|clk_7m00_inferred_clock which controls 424 sequential elements including nv_storage_inst.wb_byte_inst.wb_adr_o[6:4]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>670</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>670</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Found inferred clock pca9561_clone_delay1|clk_7m00_inferred_clock which controls 424 sequential elements including nv_storage_inst.wb_byte_inst.wb_adr_o[6:4]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net sda has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net sda has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net clk_7m00 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net clk_7m00 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_14 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_14 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_32 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_32 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_40 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_40 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_66 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_66 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_92 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_92 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_118 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_118 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_124 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_124 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_130 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_130 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_148 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_148 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_499 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_499 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_505 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_505 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_507 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_507 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_509 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_509 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_510 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_510 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_646 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_646 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_647 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_647 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\amandaschmitt\downloads\pca9561_nv_storage.v&quot;:670:4:670:9|Removing instance nv_storage_inst.wb_byte_inst.wb_adr_o[6] because it is equivalent to instance nv_storage_inst.wb_byte_inst.wb_adr_o[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>670</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>670</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Removing instance nv_storage_inst.wb_byte_inst.wb_adr_o[6] because it is equivalent to instance nv_storage_inst.wb_byte_inst.wb_adr_o[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;c:\users\amandaschmitt\downloads\pca9561_nv_storage.v&quot;:670:4:670:9|Removing instance nv_storage_inst.wb_byte_inst.wb_adr_o[5] because it is equivalent to instance nv_storage_inst.wb_byte_inst.wb_adr_o[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>670</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>670</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Removing instance nv_storage_inst.wb_byte_inst.wb_adr_o[5] because it is equivalent to instance nv_storage_inst.wb_byte_inst.wb_adr_o[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_78 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_78 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_333 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_333 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_334 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_334 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_335 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_335 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_336 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_336 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_337 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_337 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_338 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_338 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_339 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_339 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_340 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_340 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_341 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_341 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_342 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_342 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_343 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_343 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_344 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_344 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_345 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_345 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_346 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_346 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_347 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_347 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_348 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_348 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_349 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_349 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_350 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_350 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_351 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_351 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_352 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_352 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.N_353 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.N_353 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net un1_busy_count has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net un1_busy_count has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_1271 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_1271 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_0 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.un1_reset_wait_count_1_axb_0 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_1 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.un1_reset_wait_count_1_axb_1 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_2 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.un1_reset_wait_count_1_axb_2 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_3 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.un1_reset_wait_count_1_axb_3 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_4 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.un1_reset_wait_count_1_axb_4 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_5 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.un1_reset_wait_count_1_axb_5 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_6 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.un1_reset_wait_count_1_axb_6 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net nv_storage_inst.un1_reset_wait_count_1_axb_7 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net nv_storage_inst.un1_reset_wait_count_1_axb_7 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2667 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2667 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2669 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2669 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2671 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2671 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2811 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2811 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2813 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2813 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2815 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2815 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2817 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2817 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2819 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2819 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2863 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2863 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2865 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2865 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2889 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2889 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2891 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2891 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2893 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2893 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2895 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2895 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2897 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2897 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2899 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2899 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2901 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2901 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v&quot;:17:7:17:26|Net N_2903 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>26</Navigation>
+            <Navigation>Net N_2903 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\amandaschmitt\downloads\pca9561_nv_storage.v&quot;:767:8:767:16|Blackbox EFB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\amandaschmitt\downloads\pca9561_nv_storage.v</Navigation>
+            <Navigation>767</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>767</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>Blackbox EFB is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock pca9561_clone_delay1|clk_7m00_inferred_clock with period 142.86ns. Please declare a user-defined clock on net clk_7m00.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock pca9561_clone_delay1|clk_7m00_inferred_clock with period 142.86ns. Please declare a user-defined clock on net clk_7m00.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

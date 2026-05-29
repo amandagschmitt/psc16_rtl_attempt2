@@ -1,0 +1,133 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BZ173 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":426:12:426:15|ROM load_valid_2 (in view: work.pca9561_nv_storage(verilog)) mapped in logic.
+@N: MO106 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":426:12:426:15|Found ROM load_valid_2 (in view: work.pca9561_nv_storage(verilog)) with 27 words by 1 bit.
+@N: FX493 |Applying initial value "1" on instance mux_in_meta[0].
+@N: FX493 |Applying initial value "1" on instance mux_in_meta[1].
+@N: FX493 |Applying initial value "1" on instance mux_in_meta[2].
+@N: FX493 |Applying initial value "1" on instance mux_in_meta[3].
+@N: FX493 |Applying initial value "1" on instance mux_in_meta[4].
+@N: FX493 |Applying initial value "1" on instance mux_in_meta[5].
+@N: FX493 |Applying initial value "1" on instance mux_in_sync[0].
+@N: FX493 |Applying initial value "1" on instance mux_in_sync[1].
+@N: FX493 |Applying initial value "1" on instance mux_in_sync[2].
+@N: FX493 |Applying initial value "1" on instance mux_in_sync[3].
+@N: FX493 |Applying initial value "1" on instance mux_in_sync[4].
+@N: FX493 |Applying initial value "1" on instance mux_in_sync[5].
+@N: FX493 |Applying initial value "0" on instance por_shift[0].
+@N: FX493 |Applying initial value "0" on instance por_shift[1].
+@N: FX493 |Applying initial value "0" on instance por_shift[2].
+@N: FX493 |Applying initial value "0" on instance por_shift[3].
+@N: FX493 |Applying initial value "0" on instance por_shift[4].
+@N: FX493 |Applying initial value "0" on instance por_shift[5].
+@N: FX493 |Applying initial value "0" on instance por_shift[6].
+@N: FX493 |Applying initial value "0" on instance por_shift[7].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q_d[0].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q_d[1].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q_d[2].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q_d[3].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q_d[4].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q_d[5].
+@N: FX493 |Applying initial value "0" on instance eeprom0[0].
+@N: FX493 |Applying initial value "0" on instance eeprom0[1].
+@N: FX493 |Applying initial value "0" on instance eeprom0[2].
+@N: FX493 |Applying initial value "0" on instance eeprom0[3].
+@N: FX493 |Applying initial value "0" on instance eeprom0[4].
+@N: FX493 |Applying initial value "0" on instance eeprom0[5].
+@N: FX493 |Applying initial value "0" on instance eeprom1[0].
+@N: FX493 |Applying initial value "0" on instance eeprom1[1].
+@N: FX493 |Applying initial value "0" on instance eeprom1[2].
+@N: FX493 |Applying initial value "0" on instance eeprom1[3].
+@N: FX493 |Applying initial value "0" on instance eeprom1[4].
+@N: FX493 |Applying initial value "0" on instance eeprom1[5].
+@N: FX493 |Applying initial value "0" on instance eeprom2[0].
+@N: FX493 |Applying initial value "0" on instance eeprom2[1].
+@N: FX493 |Applying initial value "0" on instance eeprom2[2].
+@N: FX493 |Applying initial value "0" on instance eeprom2[3].
+@N: FX493 |Applying initial value "0" on instance eeprom2[4].
+@N: FX493 |Applying initial value "0" on instance eeprom2[5].
+@N: FX493 |Applying initial value "0" on instance eeprom3[0].
+@N: FX493 |Applying initial value "0" on instance eeprom3[1].
+@N: FX493 |Applying initial value "0" on instance eeprom3[2].
+@N: FX493 |Applying initial value "0" on instance eeprom3[3].
+@N: FX493 |Applying initial value "0" on instance eeprom3[4].
+@N: FX493 |Applying initial value "0" on instance eeprom3[5].
+@N: FX493 |Applying initial value "0" on instance pending_output_cmd_valid.
+@N: FX493 |Applying initial value "0" on instance sda_drive_low.
+@N: FX493 |Applying initial value "1" on instance pending_output_cmd[0].
+@N: FX493 |Applying initial value "0" on instance pending_output_cmd[1].
+@N: FX493 |Applying initial value "0" on instance pending_output_cmd[2].
+@N: FX493 |Applying initial value "0" on instance pending_output_cmd[3].
+@N: FX493 |Applying initial value "1" on instance output_cmd[0].
+@N: FX493 |Applying initial value "0" on instance output_cmd[1].
+@N: FX493 |Applying initial value "0" on instance output_cmd[2].
+@N: FX493 |Applying initial value "0" on instance output_cmd[3].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q[0].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q[1].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q[2].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q[3].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q[4].
+@N: FX493 |Applying initial value "0" on instance mux_selected_q[5].
+@N: FX493 |Applying initial value "1" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: FX493 |Applying initial value "0" on instance state[2].
+@N: FX493 |Applying initial value "0" on instance state[3].
+@N: FX493 |Applying initial value "0" on instance state[4].
+@N: FX493 |Applying initial value "0" on instance state[5].
+@N: FX493 |Applying initial value "0" on instance state[6].
+@N: FX493 |Applying initial value "0" on instance state[7].
+@N: BN362 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":254:4:254:9|Removing sequential instance state[7] (in view: work.pca9561_clone_delay1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":254:4:254:9|Removing sequential instance state[6] (in view: work.pca9561_clone_delay1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":254:4:254:9|Removing sequential instance state[5] (in view: work.pca9561_clone_delay1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":254:4:254:9|Removing sequential instance state[0] (in view: work.pca9561_clone_delay1(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: MF179 :"c:\users\amandaschmitt\downloads\pca9561_clone_delay1.v":400:45:400:77|Found 7 by 7 bit equality operator ('==') un1_a0_sync (in view: work.pca9561_clone_delay1(verilog))
+@N: FX493 |Applying initial value "1" on instance state[0].
+@N: FX493 |Applying initial value "0" on instance state[1].
+@N: FX493 |Applying initial value "0" on instance state[2].
+@N: FX493 |Applying initial value "0" on instance state[3].
+@N: FX493 |Applying initial value "0" on instance state[4].
+@N: FX493 |Applying initial value "0" on instance state[5].
+@N: FX493 |Applying initial value "0" on instance state[6].
+@N: FX493 |Applying initial value "0" on instance state[7].
+@N: FX493 |Applying initial value "0" on instance state[8].
+@N: FX493 |Applying initial value "0" on instance state[9].
+@N: FX493 |Applying initial value "0" on instance state[10].
+@N: FX493 |Applying initial value "0" on instance state[11].
+@N: FX493 |Applying initial value "0" on instance state[12].
+@N: FX493 |Applying initial value "0" on instance state[13].
+@N: FX493 |Applying initial value "0" on instance state[14].
+@N: FX493 |Applying initial value "0" on instance state[15].
+@N: FX493 |Applying initial value "0" on instance state[16].
+@N: FX493 |Applying initial value "0" on instance state[17].
+@N: FX493 |Applying initial value "0" on instance state[18].
+@N: FX493 |Applying initial value "0" on instance state[19].
+@N: FX493 |Applying initial value "0" on instance state[20].
+@N: FX493 |Applying initial value "0" on instance state[21].
+@N: FX493 |Applying initial value "0" on instance state[22].
+@N: FX493 |Applying initial value "0" on instance state[23].
+@N: FX493 |Applying initial value "0" on instance state[24].
+@N: FX493 |Applying initial value "0" on instance state[25].
+@N: FX493 |Applying initial value "0" on instance state[26].
+@N: FX493 |Applying initial value "0" on instance state[27].
+@N: FX493 |Applying initial value "0" on instance state[28].
+@N: FX493 |Applying initial value "0" on instance state[29].
+@N: FX493 |Applying initial value "0" on instance state[30].
+@N: FX493 |Applying initial value "0" on instance state[31].
+@N: FX493 |Applying initial value "0" on instance state[32].
+@N: FX493 |Applying initial value "0" on instance state[33].
+@N: FX493 |Applying initial value "0" on instance state[34].
+@N: FX493 |Applying initial value "0" on instance state[35].
+@N: FX493 |Applying initial value "0" on instance state[36].
+@N: FX493 |Applying initial value "0" on instance state[37].
+@N: FX493 |Applying initial value "0" on instance state[38].
+@N: FX493 |Applying initial value "0" on instance state[39].
+@N: MF179 :|Found 5 by 5 bit equality operator ('==') state92 (in view: work.pca9561_nv_storage(verilog))
+@N: MF179 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":463:25:463:95|Found 8 by 8 bit equality operator ('==') un1_nv_checksum (in view: work.pca9561_nv_storage(verilog))
+@N: FA113 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":620:42:620:59|Pipelining module un1_read_index[4:0]. For more information, search for "pipelining" in Online Help.
+@N: MF169 :"c:\users\amandaschmitt\downloads\pca9561_nv_storage.v":383:4:383:9|Pushed in register read_index[4:0].
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@N: FX1056 |Writing EDF file: C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\latticeportionofpsc16\impl1\psc16_maximrtl_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

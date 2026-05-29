@@ -1,0 +1,9 @@
+<BaliSimProject version="1.3" path=".." stage="0" language="-1" name="psc16redo_simulation" simType="QuestaSim">
+    <Source worklib="work" path="../rtl/psc16_eeprom_nv.v" type="VERILOG" langstandard="Verilog 2001" include="none"/>
+    <Source worklib="work" path="../rtl/psc16_top.v" type="VERILOG" langstandard="Verilog 2001" include="none"/>
+    <Source worklib="" path="../tb/tb_psc16_top.v" type="VERILOG" langstandard="" include="none"/>
+    <SimLib value="pmi_work ovi_machxo2"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="VERILOG" name="psc16_top"/>
+</BaliSimProject>
