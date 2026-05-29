@@ -18,22 +18,22 @@
 // oscillator, and no vendor-specific FPGA non-volatile primitive are added here.
 
 module psc16_top #(
-    parameter time EEPROM_WRITE_CYCLE_TIME = 3_600_000ns
+    parameter integer EEPROM_WRITE_CYCLE_TIME = 3_600_000
 ) (
-    input  logic scl,
-    inout  wire  sda,
+    input  wire scl,
+    inout  wire sda,
 
-    input  logic a0,
-    input  logic a1,
-    input  logic wp,
-    input  logic mux_select,
+    input  wire a0,
+    input  wire a1,
+    input  wire wp,
+    input  wire mux_select,
 
-    input  logic mux_in_a,
-    input  logic mux_in_b,
-    input  logic mux_in_c,
-    input  logic mux_in_d,
-    input  logic mux_in_e,
-    input  logic mux_in_f,
+    input  wire mux_in_a,
+    input  wire mux_in_b,
+    input  wire mux_in_c,
+    input  wire mux_in_d,
+    input  wire mux_in_e,
+    input  wire mux_in_f,
 
     inout  wire mux_out_a,
     inout  wire mux_out_b,
@@ -43,58 +43,52 @@ module psc16_top #(
     inout  wire mux_out_f
 );
 
-    typedef enum logic [2:0] {
-        I2C_IDLE,
-        I2C_RECEIVE_BYTE,
-        I2C_ACK_SETUP,
-        I2C_ACK_HOLD,
-        I2C_TRANSMIT_BYTE,
-        I2C_RECEIVE_MASTER_ACK,
-        I2C_MASTER_ACK_DONE
-    } i2c_state_t;
+    localparam [2:0] I2C_IDLE               = 3'd0;
+    localparam [2:0] I2C_RECEIVE_BYTE       = 3'd1;
+    localparam [2:0] I2C_ACK_SETUP          = 3'd2;
+    localparam [2:0] I2C_ACK_HOLD           = 3'd3;
+    localparam [2:0] I2C_TRANSMIT_BYTE      = 3'd4;
+    localparam [2:0] I2C_RECEIVE_MASTER_ACK = 3'd5;
+    localparam [2:0] I2C_MASTER_ACK_DONE    = 3'd6;
 
-    typedef enum logic [1:0] {
-        BYTE_IS_ADDRESS,
-        BYTE_IS_CONTROL,
-        BYTE_IS_EEPROM_DATA
-    } byte_phase_t;
+    localparam [1:0] BYTE_IS_ADDRESS     = 2'd0;
+    localparam [1:0] BYTE_IS_CONTROL     = 2'd1;
+    localparam [1:0] BYTE_IS_EEPROM_DATA = 2'd2;
 
-    typedef enum logic [2:0] {
-        AFTER_ACK_IDLE,
-        AFTER_ACK_IGNORE,
-        AFTER_ACK_CONTROL,
-        AFTER_ACK_EEPROM_DATA,
-        AFTER_ACK_TRANSMIT
-    } after_ack_action_t;
+    localparam [2:0] AFTER_ACK_IDLE        = 3'd0;
+    localparam [2:0] AFTER_ACK_IGNORE      = 3'd1;
+    localparam [2:0] AFTER_ACK_CONTROL     = 3'd2;
+    localparam [2:0] AFTER_ACK_EEPROM_DATA = 3'd3;
+    localparam [2:0] AFTER_ACK_TRANSMIT    = 3'd4;
 
-    logic [23:0] eeprom_data_packed;
-    logic        eeprom_write_busy;
+    wire [23:0] eeprom_data_packed;
+    wire        eeprom_write_busy;
 
-    logic        commit_eeprom_write;
-    logic [1:0]  pending_write_start_address;
-    logic [2:0]  pending_write_count;
-    logic [23:0] pending_write_data_packed;
-    logic        pending_write_valid;
-    logic        pending_write_overflow;
+    reg         commit_eeprom_write;
+    reg  [1:0]  pending_write_start_address;
+    reg  [2:0]  pending_write_count;
+    reg  [23:0] pending_write_data_packed;
+    reg         pending_write_valid;
+    reg         pending_write_overflow;
 
-    logic        sda_drive_low;
-    logic        previous_scl;
-    logic        previous_sda;
+    reg         sda_drive_low;
+    reg         previous_scl;
+    reg         previous_sda;
 
-    i2c_state_t         i2c_state;
-    byte_phase_t        byte_phase;
-    after_ack_action_t  after_ack_action;
+    reg  [2:0]  i2c_state;
+    reg  [1:0]  byte_phase;
+    reg  [2:0]  after_ack_action;
 
-    logic        ack_to_send;
-    logic [7:0]  received_byte;
-    logic [7:0]  transmit_byte;
-    logic [2:0]  bit_index;
-    logic [7:0]  control_register;
-    logic [1:0]  read_eeprom_pointer;
-    logic        master_ack_received;
+    reg         ack_to_send;
+    reg  [7:0]  received_byte;
+    reg  [7:0]  transmit_byte;
+    reg  [2:0]  bit_index;
+    reg  [7:0]  control_register;
+    reg  [1:0]  read_eeprom_pointer;
+    reg         master_ack_received;
 
-    logic        output_command_active;
-    logic [7:0]  output_command;
+    reg         output_command_active;
+    reg  [7:0]  output_command;
 
     wire [6:0] i2c_slave_address = {5'b10011, a1, a0};
     wire [5:0] mux_input_data = {
@@ -106,7 +100,13 @@ module psc16_top #(
         mux_in_a
     };
 
-    logic [5:0] selected_mux_output_data;
+    reg [5:0] selected_mux_output_data;
+
+    reg       scl_rising;
+    reg       scl_falling;
+    reg       start_condition;
+    reg       stop_condition;
+    reg [7:0] next_received_byte;
 
     assign sda = sda_drive_low ? 1'b0 : 1'bz;
 
@@ -130,57 +130,76 @@ module psc16_top #(
         .eeprom_data_packed(eeprom_data_packed)
     );
 
-    function automatic logic [5:0] eeprom_register_value(input logic [1:0] address);
-        case (address)
-            2'd0: eeprom_register_value = eeprom_data_packed[5:0];
-            2'd1: eeprom_register_value = eeprom_data_packed[11:6];
-            2'd2: eeprom_register_value = eeprom_data_packed[17:12];
-            2'd3: eeprom_register_value = eeprom_data_packed[23:18];
-        endcase
-    endfunction
-
-    function automatic logic control_is_eeprom_address(input logic [7:0] value);
-        control_is_eeprom_address = (value == 8'h00) ||
-                                    (value == 8'h01) ||
-                                    (value == 8'h02) ||
-                                    (value == 8'h03);
-    endfunction
-
-    function automatic logic control_is_mux_input_address(input logic [7:0] value);
-        control_is_mux_input_address = (value == 8'hFF);
-    endfunction
-
-    function automatic logic control_is_output_command(input logic [7:0] value);
-        // NXP Table 5 command register values:
-        // F0/F4/F8/FC select EEPROM byte 0/1/2/3.
-        // F1/F5/F9/FD select MUX_IN when MUX_SELECT=1, otherwise EEPROM byte n.
-        // F2/F6/FA/FE select MUX_IN.
-        // F3/F7/FB are not listed as valid commands. FF is valid only as the
-        // MUX_IN read address from Table 4, not as an output command.
-        control_is_output_command = (value[7:4] == 4'hF) &&
-                                    (value[1:0] != 2'b11);
-    endfunction
-
-    function automatic logic control_is_valid(input logic [7:0] value);
-        control_is_valid = control_is_eeprom_address(value) ||
-                           control_is_mux_input_address(value) ||
-                           control_is_output_command(value);
-    endfunction
-
-    function automatic logic [7:0] read_data_for_control;
-        if (control_is_eeprom_address(control_register)) begin
-            read_data_for_control = {2'b00, eeprom_register_value(read_eeprom_pointer)};
-        end else if (control_is_mux_input_address(control_register)) begin
-            read_data_for_control = {2'b00, mux_input_data};
-        end else begin
-            // The supplied documents define output command effects, but do not
-            // define readback data for command-register values. Return zeros so
-            // no undocumented command-read behavior is invented.
-            read_data_for_control = 8'h00;
+    function [5:0] eeprom_register_value;
+        input [1:0] address;
+        begin
+            case (address)
+                2'd0: eeprom_register_value = eeprom_data_packed[5:0];
+                2'd1: eeprom_register_value = eeprom_data_packed[11:6];
+                2'd2: eeprom_register_value = eeprom_data_packed[17:12];
+                2'd3: eeprom_register_value = eeprom_data_packed[23:18];
+                default: eeprom_register_value = 6'b000000;
+            endcase
         end
     endfunction
 
-    task automatic clear_pending_write;
+    function control_is_eeprom_address;
+        input [7:0] value;
+        begin
+            control_is_eeprom_address = (value == 8'h00) ||
+                                        (value == 8'h01) ||
+                                        (value == 8'h02) ||
+                                        (value == 8'h03);
+        end
+    endfunction
+
+    function control_is_mux_input_address;
+        input [7:0] value;
+        begin
+            control_is_mux_input_address = (value == 8'hFF);
+        end
+    endfunction
+
+    function control_is_output_command;
+        input [7:0] value;
+        begin
+            // NXP Table 5 command register values:
+            // F0/F4/F8/FC select EEPROM byte 0/1/2/3.
+            // F1/F5/F9/FD select MUX_IN when MUX_SELECT=1, otherwise EEPROM byte n.
+            // F2/F6/FA/FE select MUX_IN.
+            // F3/F7/FB are not listed as valid commands. FF is valid only as the
+            // MUX_IN read address from Table 4, not as an output command.
+            control_is_output_command = (value[7:4] == 4'hF) &&
+                                        (value[1:0] != 2'b11);
+        end
+    endfunction
+
+    function control_is_valid;
+        input [7:0] value;
+        begin
+            control_is_valid = control_is_eeprom_address(value) ||
+                               control_is_mux_input_address(value) ||
+                               control_is_output_command(value);
+        end
+    endfunction
+
+    function [7:0] read_data_for_control;
+        input unused;
+        begin
+            if (control_is_eeprom_address(control_register)) begin
+                read_data_for_control = {2'b00, eeprom_register_value(read_eeprom_pointer)};
+            end else if (control_is_mux_input_address(control_register)) begin
+                read_data_for_control = {2'b00, mux_input_data};
+            end else begin
+                // The supplied documents define output command effects, but do not
+                // define readback data for command-register values. Return zeros so
+                // no undocumented command-read behavior is invented.
+                read_data_for_control = 8'h00;
+            end
+        end
+    endfunction
+
+    task clear_pending_write;
         begin
             pending_write_valid = 1'b0;
             pending_write_overflow = 1'b0;
@@ -189,7 +208,8 @@ module psc16_top #(
         end
     endtask
 
-    task automatic store_pending_write_byte(input logic [5:0] data);
+    task store_pending_write_byte;
+        input [5:0] data;
         begin
             case (pending_write_count)
                 3'd0: pending_write_data_packed[5:0] = data;
@@ -205,15 +225,15 @@ module psc16_top #(
         end
     endtask
 
-    task automatic pulse_eeprom_commit;
+    task pulse_eeprom_commit;
         begin
             commit_eeprom_write = 1'b1;
-            #1ns;
+            #1;
             commit_eeprom_write = 1'b0;
         end
     endtask
 
-    task automatic finish_transaction_on_stop;
+    task finish_transaction_on_stop;
         begin
             sda_drive_low = 1'b0;
             i2c_state = I2C_IDLE;
@@ -230,7 +250,9 @@ module psc16_top #(
         end
     endtask
 
-    task automatic request_ack(input logic ack_value, input after_ack_action_t action);
+    task request_ack;
+        input ack_value;
+        input [2:0] action;
         begin
             ack_to_send = ack_value;
             after_ack_action = ack_value ? action : AFTER_ACK_IGNORE;
@@ -238,7 +260,8 @@ module psc16_top #(
         end
     endtask
 
-    task automatic start_receiving(input byte_phase_t next_phase);
+    task start_receiving;
+        input [1:0] next_phase;
         begin
             received_byte = 8'h00;
             bit_index = 3'd7;
@@ -247,7 +270,8 @@ module psc16_top #(
         end
     endtask
 
-    task automatic begin_transmit_byte(input logic [7:0] value);
+    task begin_transmit_byte;
+        input [7:0] value;
         begin
             transmit_byte = value;
             bit_index = 3'd7;
@@ -256,9 +280,10 @@ module psc16_top #(
         end
     endtask
 
-    task automatic handle_address_byte(input logic [7:0] value);
-        logic address_matches;
-        logic read_transfer;
+    task handle_address_byte;
+        input [7:0] value;
+        reg address_matches;
+        reg read_transfer;
         begin
             address_matches = (value[7:1] == i2c_slave_address);
             read_transfer = value[0];
@@ -277,7 +302,8 @@ module psc16_top #(
         end
     endtask
 
-    task automatic handle_control_byte(input logic [7:0] value);
+    task handle_control_byte;
+        input [7:0] value;
         begin
             if (!control_is_valid(value)) begin
                 request_ack(1'b0, AFTER_ACK_IGNORE);
@@ -307,7 +333,8 @@ module psc16_top #(
         end
     endtask
 
-    task automatic handle_eeprom_data_byte(input logic [7:0] value);
+    task handle_eeprom_data_byte;
+        input [7:0] value;
         begin
             if (wp || (pending_write_count >= 3'd4)) begin
                 pending_write_overflow = (pending_write_count >= 3'd4);
@@ -319,17 +346,19 @@ module psc16_top #(
         end
     endtask
 
-    task automatic handle_received_byte(input logic [7:0] value);
+    task handle_received_byte;
+        input [7:0] value;
         begin
             case (byte_phase)
                 BYTE_IS_ADDRESS:     handle_address_byte(value);
                 BYTE_IS_CONTROL:     handle_control_byte(value);
                 BYTE_IS_EEPROM_DATA: handle_eeprom_data_byte(value);
+                default:             request_ack(1'b0, AFTER_ACK_IGNORE);
             endcase
         end
     endtask
 
-    task automatic advance_after_ack;
+    task advance_after_ack;
         begin
             sda_drive_low = 1'b0;
 
@@ -343,7 +372,7 @@ module psc16_top #(
                 end
 
                 AFTER_ACK_TRANSMIT: begin
-                    begin_transmit_byte(read_data_for_control());
+                    begin_transmit_byte(read_data_for_control(1'b0));
                 end
 
                 default: begin
@@ -354,13 +383,13 @@ module psc16_top #(
         end
     endtask
 
-    task automatic prepare_next_read_byte_after_master_ack;
+    task prepare_next_read_byte_after_master_ack;
         begin
             if (master_ack_received) begin
                 if (control_is_eeprom_address(control_register)) begin
                     read_eeprom_pointer = read_eeprom_pointer + 2'd1;
                 end
-                begin_transmit_byte(read_data_for_control());
+                begin_transmit_byte(read_data_for_control(1'b0));
             end else begin
                 sda_drive_low = 1'b0;
                 i2c_state = I2C_IDLE;
@@ -369,7 +398,7 @@ module psc16_top #(
         end
     endtask
 
-    always_comb begin
+    always @* begin
         if (!output_command_active) begin
             // PCA9561 function table when not overridden by I2C control:
             // MUX_SELECT=0 selects EEPROM byte 0. MUX_SELECT=1 selects MUX_IN.
@@ -412,13 +441,7 @@ module psc16_top #(
         clear_pending_write();
     end
 
-    always @(scl or sda) begin : i2c_bus_monitor
-        logic scl_rising;
-        logic scl_falling;
-        logic start_condition;
-        logic stop_condition;
-        logic [7:0] next_received_byte;
-
+    always @(scl or sda) begin
         scl_rising = (previous_scl == 1'b0) && (scl == 1'b1);
         scl_falling = (previous_scl == 1'b1) && (scl == 1'b0);
         start_condition = (previous_sda == 1'b1) && (sda == 1'b0) && (scl == 1'b1);

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019990</ID>
+            <Severity>Error</Severity>
+            <Dynamic>CG245 :&quot;C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.sv&quot;:23:14:23:17|Parameters of type real/realtime/time are not yet supported</Dynamic>
+            <Navigation>CG245</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.sv</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Parameters of type real/realtime/time are not yet supported</Navigation>
+        </Message>
+        <Message>
+            <ID>2019990</ID>
+            <Severity>Error</Severity>
+            <Dynamic>CG246 :&quot;C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.sv&quot;:23:14:23:17|Expecting parameter name</Dynamic>
+            <Navigation>CG246</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.sv</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Expecting parameter name</Navigation>
+        </Message>
+        <Message>
+            <ID>2019990</ID>
+            <Severity>Error</Severity>
+            <Dynamic>CG245 :&quot;C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.sv&quot;:21:14:21:17|Parameters of type real/realtime/time are not yet supported</Dynamic>
+            <Navigation>CG245</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.sv</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Parameters of type real/realtime/time are not yet supported</Navigation>
+        </Message>
+        <Message>
+            <ID>2019990</ID>
+            <Severity>Error</Severity>
+            <Dynamic>CG246 :&quot;C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.sv&quot;:21:14:21:17|Expecting parameter name</Dynamic>
+            <Navigation>CG246</Navigation>
+            <Navigation>C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.sv</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Expecting parameter name</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

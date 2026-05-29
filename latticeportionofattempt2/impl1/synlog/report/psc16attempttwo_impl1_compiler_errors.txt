@@ -1,0 +1,5 @@
+@E: CG245 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.sv":23:14:23:17|Parameters of type real/realtime/time are not yet supported
+@E: CG246 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_eeprom_nv.sv":23:14:23:17|Expecting parameter name
+@E: CG245 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.sv":21:14:21:17|Parameters of type real/realtime/time are not yet supported
+@E: CG246 :"C:\Users\AmandaSchmitt\Desktop\psc16_rtl_attempt2\rtl\psc16_top.sv":21:14:21:17|Expecting parameter name
+

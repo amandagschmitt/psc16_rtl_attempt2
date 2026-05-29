@@ -17,23 +17,23 @@
 
 module tb_psc16_top;
 
-    localparam time I2C_HALF_PERIOD = 1250ns;       // 400 kHz max bus rate.
-    localparam time EEPROM_WRITE_TIME = 3_600_000ns; // PCA9561 datasheet value.
+    localparam I2C_HALF_PERIOD = 1250;        // 400 kHz max bus rate.
+    localparam EEPROM_WRITE_TIME = 3_600_000; // PCA9561 datasheet value.
 
-    logic scl;
-    tri1  sda;
-    logic master_drive_sda_low;
+    reg scl;
+    tri1 sda;
+    reg master_drive_sda_low;
 
-    logic a0;
-    logic a1;
-    logic wp;
-    logic mux_select;
-    logic mux_in_a;
-    logic mux_in_b;
-    logic mux_in_c;
-    logic mux_in_d;
-    logic mux_in_e;
-    logic mux_in_f;
+    reg a0;
+    reg a1;
+    reg wp;
+    reg mux_select;
+    reg mux_in_a;
+    reg mux_in_b;
+    reg mux_in_c;
+    reg mux_in_d;
+    reg mux_in_e;
+    reg mux_in_f;
 
     tri1 mux_out_a;
     tri1 mux_out_b;
@@ -41,6 +41,11 @@ module tb_psc16_top;
     tri1 mux_out_d;
     tri1 mux_out_e;
     tri1 mux_out_f;
+
+    reg address_ack;
+    reg control_ack;
+    reg data_ack;
+    reg [7:0] read_value;
 
     assign sda = master_drive_sda_low ? 1'b0 : 1'bz;
 
@@ -67,56 +72,62 @@ module tb_psc16_top;
         .mux_out_f(mux_out_f)
     );
 
-    function automatic logic [7:0] i2c_address_byte(input logic read_transfer);
-        i2c_address_byte = {5'b10011, a1, a0, read_transfer};
-    endfunction
-
-    function automatic logic [5:0] sampled_mux_out;
-        sampled_mux_out = {
-            mux_out_f,
-            mux_out_e,
-            mux_out_d,
-            mux_out_c,
-            mux_out_b,
-            mux_out_a
-        };
-    endfunction
-
-    task automatic fail(input string message);
+    function [7:0] i2c_address_byte;
+        input read_transfer;
         begin
-            $error("%s at time %0t", message, $time);
-            $fatal;
+            i2c_address_byte = {5'b10011, a1, a0, read_transfer};
+        end
+    endfunction
+
+    function [5:0] sampled_mux_out;
+        input unused;
+        begin
+            sampled_mux_out = {
+                mux_out_f,
+                mux_out_e,
+                mux_out_d,
+                mux_out_c,
+                mux_out_b,
+                mux_out_a
+            };
+        end
+    endfunction
+
+    task fail;
+        input [1023:0] message;
+        begin
+            $display("ERROR: %0s at time %0t", message, $time);
+            $finish;
         end
     endtask
 
-    task automatic expect_equal_byte(
-        input string check_name,
-        input logic [7:0] actual,
-        input logic [7:0] expected
-    );
+    task expect_equal_byte;
+        input [1023:0] check_name;
+        input [7:0] actual;
+        input [7:0] expected;
         begin
             if (actual !== expected) begin
-                $error("%s: actual=%02h expected=%02h", check_name, actual, expected);
-                $fatal;
+                $display("ERROR: %0s: actual=%02h expected=%02h",
+                         check_name, actual, expected);
+                $finish;
             end
         end
     endtask
 
-    task automatic expect_equal_mux(
-        input string check_name,
-        input logic [5:0] expected
-    );
+    task expect_equal_mux;
+        input [1023:0] check_name;
+        input [5:0] expected;
         begin
-            #10ns;
-            if (sampled_mux_out() !== expected) begin
-                $error("%s: mux_out=%06b expected=%06b",
-                       check_name, sampled_mux_out(), expected);
-                $fatal;
+            #10;
+            if (sampled_mux_out(1'b0) !== expected) begin
+                $display("ERROR: %0s: mux_out=%06b expected=%06b",
+                         check_name, sampled_mux_out(1'b0), expected);
+                $finish;
             end
         end
     endtask
 
-    task automatic i2c_idle;
+    task i2c_idle;
         begin
             master_drive_sda_low = 1'b0;
             scl = 1'b1;
@@ -124,7 +135,7 @@ module tb_psc16_top;
         end
     endtask
 
-    task automatic i2c_start;
+    task i2c_start;
         begin
             master_drive_sda_low = 1'b0;
             scl = 1'b1;
@@ -136,7 +147,7 @@ module tb_psc16_top;
         end
     endtask
 
-    task automatic i2c_stop;
+    task i2c_stop;
         begin
             master_drive_sda_low = 1'b1;
             scl = 1'b0;
@@ -148,7 +159,8 @@ module tb_psc16_top;
         end
     endtask
 
-    task automatic i2c_write_bit(input logic bit_value);
+    task i2c_write_bit;
+        input bit_value;
         begin
             scl = 1'b0;
             master_drive_sda_low = (bit_value == 1'b0);
@@ -160,7 +172,8 @@ module tb_psc16_top;
         end
     endtask
 
-    task automatic i2c_read_bit(output logic bit_value);
+    task i2c_read_bit;
+        output bit_value;
         begin
             scl = 1'b0;
             master_drive_sda_low = 1'b0;
@@ -174,9 +187,12 @@ module tb_psc16_top;
         end
     endtask
 
-    task automatic i2c_write_byte(input logic [7:0] value, output logic ack_seen);
+    task i2c_write_byte;
+        input [7:0] value;
+        output ack_seen;
+        integer i;
         begin
-            for (int i = 7; i >= 0; i--) begin
+            for (i = 7; i >= 0; i = i - 1) begin
                 i2c_write_bit(value[i]);
             end
 
@@ -192,11 +208,14 @@ module tb_psc16_top;
         end
     endtask
 
-    task automatic i2c_read_byte(input logic master_ack, output logic [7:0] value);
-        logic sampled_bit;
+    task i2c_read_byte;
+        input master_ack;
+        output [7:0] value;
+        reg sampled_bit;
+        integer i;
         begin
             value = 8'h00;
-            for (int i = 7; i >= 0; i--) begin
+            for (i = 7; i >= 0; i = i - 1) begin
                 i2c_read_bit(sampled_bit);
                 value[i] = sampled_bit;
             end
@@ -206,8 +225,10 @@ module tb_psc16_top;
         end
     endtask
 
-    task automatic write_control_only(input logic [7:0] control, output logic control_ack);
-        logic ack;
+    task write_control_only;
+        input [7:0] control;
+        output control_ack;
+        reg ack;
         begin
             i2c_start();
             i2c_write_byte(i2c_address_byte(1'b0), ack);
@@ -217,32 +238,30 @@ module tb_psc16_top;
         end
     endtask
 
-    task automatic write_eeprom_one_byte(
-        input logic [7:0] control,
-        input logic [5:0] data,
-        output logic address_ack,
-        output logic control_ack,
-        output logic data_ack
-    );
+    task write_eeprom_one_byte;
+        input [7:0] control;
+        input [5:0] data;
+        output address_ack_out;
+        output control_ack_out;
+        output data_ack_out;
         begin
             i2c_start();
-            i2c_write_byte(i2c_address_byte(1'b0), address_ack);
-            if (address_ack) begin
-                i2c_write_byte(control, control_ack);
-                i2c_write_byte({2'b00, data}, data_ack);
+            i2c_write_byte(i2c_address_byte(1'b0), address_ack_out);
+            if (address_ack_out) begin
+                i2c_write_byte(control, control_ack_out);
+                i2c_write_byte({2'b00, data}, data_ack_out);
             end else begin
-                control_ack = 1'b0;
-                data_ack = 1'b0;
+                control_ack_out = 1'b0;
+                data_ack_out = 1'b0;
             end
             i2c_stop();
         end
     endtask
 
-    task automatic read_register(
-        input  logic [7:0] control,
-        output logic [7:0] read_value
-    );
-        logic ack;
+    task read_register;
+        input [7:0] control;
+        output [7:0] read_value_out;
+        reg ack;
         begin
             i2c_start();
             i2c_write_byte(i2c_address_byte(1'b0), ack);
@@ -253,17 +272,12 @@ module tb_psc16_top;
             i2c_start();
             i2c_write_byte(i2c_address_byte(1'b1), ack);
             if (!ack) fail("Expected address ACK for read");
-            i2c_read_byte(1'b0, read_value);
+            i2c_read_byte(1'b0, read_value_out);
             i2c_stop();
         end
     endtask
 
     initial begin
-        logic address_ack;
-        logic control_ack;
-        logic data_ack;
-        logic [7:0] read_value;
-
         scl = 1'b1;
         master_drive_sda_low = 1'b0;
         a0 = 1'b0;
@@ -295,7 +309,7 @@ module tb_psc16_top;
         end
         i2c_stop();
 
-        #(EEPROM_WRITE_TIME + 10_000ns);
+        #(EEPROM_WRITE_TIME + 10000);
 
         read_register(8'h00, read_value);
         expect_equal_byte("EEPROM byte 0 readback after write", read_value, 8'h15);
@@ -306,7 +320,7 @@ module tb_psc16_top;
             fail("Expected ACKs for WP=0 EEPROM byte 1 write");
         end
 
-        #(EEPROM_WRITE_TIME + 10_000ns);
+        #(EEPROM_WRITE_TIME + 10000);
 
         write_control_only(8'hF5, control_ack);
         if (!control_ack) begin
